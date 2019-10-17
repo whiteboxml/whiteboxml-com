@@ -14,7 +14,8 @@
 
 </head>
 
-<body data-spy="scroll" data-target="#bs-example-navbar-collapse-1" data-offset="5" class="scrollspy-example without_bg_images">
+<body data-spy="scroll" data-target="#bs-example-navbar-collapse-1" data-offset="5"
+      class="scrollspy-example without_bg_images">
 
 <!-- navbar
 ========================================-->
@@ -24,32 +25,34 @@
 ========================================-->
 <header class="active-navbar appsLand-header" id="home">
     <div class="app-overlay">
+
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
+        </video>
+
         <div class="header-content">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-7 col-md-8">
+                    <div class="text-center">
                         <div class="site-intro-content">
-                            <h1 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">Hinata<br> PROMOTE YOUR APP</h1>
+                            <h1 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">WhiteBox</h1>
                             <p class="lead wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
-                                The Best Way To Promote Your App And Make A lot Of Selling, In HinataYou Will be Able To Use An Awesome, Clean And Responsive Design To Market Your App
+                                We craft AI systems for both enterprises and startups.
                             </p>
                             <ul class="list-inline list-unstyled header-links">
                                 <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-                                    <a href="index.html#download" class="appsLand-btn appsLand-btn-gradient btn-inverse scrollLink">
+                                    <a href="{% url 'landing' %}#download"
+                                       class="appsLand-btn appsLand-btn-gradient btn-inverse scrollLink">
                                         <span><i class="fa fa-download"></i> Download</span>
                                     </a>
                                 </li>
                                 <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.75s">
-                                    <a href="index.html#contact" class="appsLand-btn appsLand-btn-gradient btn-inverse scrollLink">
+                                    <a href="{% url 'landing' %}#contact"
+                                       class="appsLand-btn appsLand-btn-gradient btn-inverse scrollLink">
                                         <span><i class="glyphicon glyphicon-phone-alt"></i> Contact Us</span>
                                     </a>
                                 </li>
                             </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-lg-offset-1 col-md-4 hidden-xs hidden-sm">
-                        <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
-                            <img alt="" src="/static/img/mockups/02.png" class="img-responsive">
                         </div>
                     </div>
                 </div>
@@ -239,7 +242,9 @@
                         <div class="appInfo-data wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
                             <h2>Easy To Use</h2>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid dolorem eaque earum error maiores nemo nihil non, nulla officia optio pariatur quam, quisquam, quod rem reprehenderit tempore velit vitae.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid dolorem eaque
+                                earum error maiores nemo nihil non, nulla officia optio pariatur quam, quisquam, quod
+                                rem reprehenderit tempore velit vitae.
                             </p>
                             <a href="index.html#" class="appsLand-btn appsLand-btn-gradient"><span>Read More</span></a>
                         </div>
@@ -260,7 +265,9 @@
                         <div class="appInfo-data wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
                             <h2>Modern Design</h2>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid dolorem eaque earum error maiores nemo nihil non, nulla officia optio pariatur quam, quisquam, quod rem reprehenderit tempore velit vitae.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid dolorem eaque
+                                earum error maiores nemo nihil non, nulla officia optio pariatur quam, quisquam, quod
+                                rem reprehenderit tempore velit vitae.
                             </p>
                             <a href="index.html#" class="appsLand-btn appsLand-btn-gradient"><span>Read More</span></a>
                         </div>
@@ -426,7 +433,8 @@
     <section class="contact contact__style-2 section-bg-img" id="contact">
         <div class="app-overlay">
             <div class="container">
-                <div class="section-title style-gradient white-color wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
+                <div class="section-title style-gradient white-color wow fadeInUp" data-wow-duration="1s"
+                     data-wow-delay="0s">
                     <h2>
                         Contact Us
                     </h2>
@@ -457,18 +465,24 @@
                             </div>
                         </div>
                         <div class="col-md-8 col-lg-pull-4 col-md-pull-4">
-                            <form action="https://hinata.mrkayo.com/php/sendMessage.php" method="post" id="contact_form">
+                            <form action="https://hinata.mrkayo.com/php/sendMessage.php" method="post"
+                                  id="contact_form">
                                 <div class="form-group">
-                                    <input type="text" name="full_name" class="form-control" placeholder="Full Name" data-nameValidation>
+                                    <input type="text" name="full_name" class="form-control" placeholder="Full Name"
+                                           data-nameValidation>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" name="email" class="form-control" placeholder="Email" data-emailValidation>
+                                    <input type="text" name="email" class="form-control" placeholder="Email"
+                                           data-emailValidation>
                                 </div>
                                 <div class="form-group">
-                                    <textarea name="message" class="form-control" placeholder="Your Message" data-messageValidation></textarea>
+                                    <textarea name="message" class="form-control" placeholder="Your Message"
+                                              data-messageValidation></textarea>
                                 </div>
                                 <div class="form-group">
-                                    <button type="submit" name="submit_contact_form" class="appsLand-btn appsLand-btn-gradient btn-inverse btn"><span><i class="fa fa-send"></i> Send Message</span></button>
+                                    <button type="submit" name="submit_contact_form"
+                                            class="appsLand-btn appsLand-btn-gradient btn-inverse btn"><span><i
+                                            class="fa fa-send"></i> Send Message</span></button>
                                 </div>
                             </form>
                         </div>
