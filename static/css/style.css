@@ -1627,18 +1627,18 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
   padding: 70px;
   width: 100%;
 }
-.testimonials .testimonials-template .testimonials-slide:before {
-  content: "\f10d";
-  position: absolute;
-  right: 50px;
-  bottom: 30px;
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: 130px;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/*.testimonials .testimonials-template .testimonials-slide:before {*/
+/*  content: "\f10d";*/
+/*  position: absolute;*/
+/*  right: 50px;*/
+/*  bottom: 30px;*/
+/*  display: inline-block;*/
+/*  font: normal normal normal 14px/1 FontAwesome;*/
+/*  font-size: 130px;*/
+/*  text-rendering: auto;*/
+/*  -webkit-font-smoothing: antialiased;*/
+/*  -moz-osx-font-smoothing: grayscale;*/
+/*}*/
 .testimonials .testimonials-template .testimonials-slide .row {
   margin-right: -45px;
   margin-left: -45px;
@@ -2816,7 +2816,7 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
   bottom: 0;
   width: 100%;
   text-align: center;
-  background: #282d30;
+  /*background: #282d30;*/
   color: #9ba0a2;
 }
 .apps-footer .footer-top {
@@ -3286,4 +3286,15 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+
+.fa-linkedin:before {
+    color: white;
+}
+
+.fa-twitter:before {
+    color: white;
+}
+
+.apps-footer .footer-bottom p {
+  color: white;
+}

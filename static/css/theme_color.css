@@ -17,12 +17,14 @@ linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(83, 52, 109, 0.75))
     background-image: -moz-linear-gradient(to right, #000000 0%, #53346D 100%);
     background-image: linear-gradient(to right, #000000 0%, #53346D 100%);
 }
+
 .without_bg_images .app-overlay {
     background-image: -webkit-linear-gradient(to right, #000000 0%, #53346D 100%);
     background-image: -o-linear-gradient(to right, #000000 0%, #53346D 100%);
     background-image: -moz-linear-gradient(to right, #000000 0%, #53346D 100%);
     background-image: linear-gradient(to right, #000000 0%, #53346D 100%);
 }
+
 .gradient-text,
 .section-title.style-gradient h2,
 .appsLand-btn.appsLand-btn-default,
@@ -37,6 +39,7 @@ linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(83, 52, 109, 0.75))
     background-image: -moz-linear-gradient(to right, #000000 0%, #53346D 100%);
     background-image: linear-gradient(to right, #000000 0%, #53346D 100%);
 }
+
 .main-color-text,
 .appsLand-navbar.active-navbar .navbar-nav > li:hover,
 .appsLand-navbar.active-navbar .navbar-nav > li.active,
@@ -50,6 +53,7 @@ linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(83, 52, 109, 0.75))
 .apps-footer .footer-bottom p a {
     color: #000000;
 }
+
 .sec-color-text,
 .blog .normal-post .entry-content .entry-expert .post-readMore a:hover,
 .blog .list-post .entry-content .entry-expert .post-readMore a:hover,
@@ -73,12 +77,14 @@ linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(83, 52, 109, 0.75))
     background-image: -moz-linear-gradient(to right, #000000 0%, rgba(83, 52, 109, 0.3) 100%);
     background-image: linear-gradient(to right, #000000 0%, rgba(83, 52, 109, 0.3) 100%);
 }
+
 .section-title.style-gradient > span:after {
     background-image: -webkit-linear-gradient(to right, #53346D 0%, rgba(83, 52, 109, 0.3) 100%);
     background-image: -o-linear-gradient(to right, #53346D 0%, rgba(83, 52, 109, 0.3) 100%);
     background-image: -moz-linear-gradient(to right, #53346D 0%, rgba(83, 52, 109, 0.3) 100%);
     background-image: linear-gradient(to right, #53346D 0%, rgba(83, 52, 109, 0.3) 100%);
 }
+
 .section-title.style-gradient > span > span {
     border-image: 1 linear-gradient(135deg, #000000 0%, #53346D 100%);
 }
@@ -103,4 +109,7 @@ linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(83, 52, 109, 0.75))
     background-image: -moz-linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(83, 52, 109, 0.2) 100%);
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(83, 52, 109, 0.2) 100%);
 }
-/*linear-gradient(to right, #000000, #53346D);*/
+
+.apps-footer .footer-top .footer-social-links a {
+    background-image: linear-gradient(to right, #000 0, #53346d 100%);
+}
