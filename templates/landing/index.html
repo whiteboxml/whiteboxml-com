@@ -26,7 +26,10 @@
 <header class="active-navbar appsLand-header" id="home">
     <div class="app-overlay">
 
-        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <video playsinline="playsinline"
+               autoplay="autoplay"
+               muted="muted"
+               loop="loop">
             <source src="/static/video/city.mp4" type="video/mp4">
         </video>
 
@@ -40,12 +43,6 @@
                                 We craft AI systems for both enterprises and startups.
                             </p>
                             <ul class="list-inline list-unstyled header-links">
-                                <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-                                    <a href="{% url 'landing' %}#download"
-                                       class="appsLand-btn appsLand-btn-gradient btn-inverse scrollLink">
-                                        <span><i class="fa fa-download"></i> Download</span>
-                                    </a>
-                                </li>
                                 <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.75s">
                                     <a href="{% url 'landing' %}#contact"
                                        class="appsLand-btn appsLand-btn-gradient btn-inverse scrollLink">
@@ -77,10 +74,9 @@
                             <img alt="" src="/static/img/flat-icons/01.png">
                         </div>
                         <div class="data-box">
-                            <h3>Clean Code</h3>
+                            <h3>Transparency</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda hic inventore
-                                itaque,
+
                             </p>
                         </div>
                     </div>
@@ -164,13 +160,13 @@
         </div>
     </section>
 
-    <!-- ScreenShots Section
+    <!-- Portfolio / Screenshots Section
     ========================================-->
     <section class="screenShots" id="screenShots">
         <div>
             <div class="section-title style-gradient wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
                 <h2>
-                    ScreenShots
+                    Portfolio
                 </h2>
                 <span><span></span></span>
             </div>
@@ -226,95 +222,38 @@
         </div>
     </section>
 
-    <!-- Features Section
-    ========================================-->
-    <section class="features" id="features">
-        <div class="container">
-            <div class="section-title style-gradient wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
-                <h2>
-                    Feature
-                </h2>
-                <span><span></span></span>
-            </div>
-            <div class="appInfo-container">
-                <div class="row appInfo-row">
-                    <div class="col-md-6 col-md-offset-1 col-sm-7">
-                        <div class="appInfo-data wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
-                            <h2>Easy To Use</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid dolorem eaque
-                                earum error maiores nemo nihil non, nulla officia optio pariatur quam, quisquam, quod
-                                rem reprehenderit tempore velit vitae.
-                            </p>
-                            <a href="index.html#" class="appsLand-btn appsLand-btn-gradient"><span>Read More</span></a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-5 hidden-xs">
-                        <div class="img-box wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-                            <img alt="" src="/static/img/mockups/02.png" class="img-responsive">
-                        </div>
-                    </div>
-                </div>
-                <div class="row appInfo-row">
-                    <div class="col-md-4 col-md-offset-1 col-sm-5 hidden-xs">
-                        <div class="img-box wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
-                            <img alt="" src="/static/img/mockups/03.png" class="img-responsive">
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-7">
-                        <div class="appInfo-data wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
-                            <h2>Modern Design</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid dolorem eaque
-                                earum error maiores nemo nihil non, nulla officia optio pariatur quam, quisquam, quod
-                                rem reprehenderit tempore velit vitae.
-                            </p>
-                            <a href="index.html#" class="appsLand-btn appsLand-btn-gradient"><span>Read More</span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Team Section
     ========================================-->
-    <section class="team__style-2">
+    <section class="team__style-2" id="team">
         <div class="container">
             <div class="section-title style-gradient wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
                 <h2>
-                    Our Team
+                    Team
                 </h2>
                 <span><span></span></span>
             </div>
             <div class="row">
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-6 col-sm-6">
                     <div class="team-member wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
                         <div class="team-member-content">
                             <div class="member-pic">
-                                <img alt="" src="/static/img/team/01.jpg" class="img-responsive">
+{#                                TODO: optimize images for web#}
+                                <img alt="" src="/static/img/team/pedro.jpg" class="img-responsive">
                             </div>
                             <div class="member-info">
                                 <div class="info-content">
                                     <div class="name-career">
-                                        <h4>John Doe</h4>
-                                        <span>Founder & CEO</span>
+                                        <h4>Pedro Muñoz</h4>
+                                        <span>🔬 Data Scientist | 🏢 Big Data Architect | 🤖 Machine Learning Engineer</span>
                                     </div>
                                     <ul class="list-inline list-unstyled member-social">
                                         <li>
-                                            <a href="index.html#"><i class="fa fa-facebook"></i></a>
+                                            <a href="https://twitter.com/pedro_munoz_"><i class="fa fa-twitter"></i></a>
                                         </li>
                                         <li>
-                                            <a href="index.html#"><i class="fa fa-twitter"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html#"><i class="fa fa-google-plus"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html#"><i class="fa fa-linkedin"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html#"><i class="fa fa-behance"></i></a>
+                                            <a href="https://www.linkedin.com/in/pedro-munoz-botas">
+                                                <i class="fa fa-linkedin"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -322,101 +261,26 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-6 col-sm-6">
                     <div class="team-member wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
                         <div class="team-member-content">
                             <div class="member-pic">
-                                <img alt="" src="/static/img/team/02.jpg" class="img-responsive">
+
+                                <img alt="" src="/static/img/team/david.jpg" class="img-responsive">
                             </div>
                             <div class="member-info">
                                 <div class="info-content">
                                     <div class="name-career">
-                                        <h4>Sam Alien</h4>
-                                        <span>SEO Specialist</span>
+                                        <h4>David Adrián Cañones</h4>
+                                        <span>🔬 Data Scientist | 🤖 Machine Learning Engineer | 💹 MBA</span>
                                     </div>
                                     <ul class="list-inline list-unstyled member-social">
                                         <li>
-                                            <a href="index.html#"><i class="fa fa-facebook"></i></a>
+                                            <a href="https://twitter.com/dcanones"><i class="fa fa-twitter"></i></a>
                                         </li>
                                         <li>
-                                            <a href="index.html#"><i class="fa fa-twitter"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html#"><i class="fa fa-google-plus"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html#"><i class="fa fa-linkedin"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html#"><i class="fa fa-behance"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="team-member wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.75s">
-                        <div class="team-member-content">
-                            <div class="member-pic">
-                                <img alt="" src="/static/img/team/03.jpg" class="img-responsive">
-                            </div>
-                            <div class="member-info">
-                                <div class="info-content">
-                                    <div class="name-career">
-                                        <h4>Jane Smith</h4>
-                                        <span>Front End</span>
-                                    </div>
-                                    <ul class="list-inline list-unstyled member-social">
-                                        <li>
-                                            <a href="index.html#"><i class="fa fa-facebook"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html#"><i class="fa fa-twitter"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html#"><i class="fa fa-google-plus"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html#"><i class="fa fa-linkedin"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html#"><i class="fa fa-behance"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="team-member wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
-                        <div class="team-member-content">
-                            <div class="member-pic">
-                                <img alt="" src="/static/img/team/05.jpg" class="img-responsive">
-                            </div>
-                            <div class="member-info">
-                                <div class="info-content">
-                                    <div class="name-career">
-                                        <h4>Karo Mace</h4>
-                                        <span>Back End</span>
-                                    </div>
-                                    <ul class="list-inline list-unstyled member-social">
-                                        <li>
-                                            <a href="index.html#"><i class="fa fa-facebook"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html#"><i class="fa fa-twitter"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html#"><i class="fa fa-google-plus"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html#"><i class="fa fa-linkedin"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="index.html#"><i class="fa fa-behance"></i></a>
+                                            <a href="https://www.linkedin.com/in/davidadrian">
+                                                <i class="fa fa-linkedin"></i></a>
                                         </li>
                                     </ul>
                                 </div>
