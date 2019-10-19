@@ -1,3 +1,54 @@
+/*********************************************************************************************
+Project:      Hinata | App Landing Page
+Version:      1.0
+Last change:  25/10/2017
+
+[ CSS Structure ]
+
+1. Color Codes
+2. General Style
+3. NavBar
+4. Header
+    4.1 Home Page Header
+    4.2 Sub Pages Header
+5. Main Content
+6. Mini Feature
+    6.1 Mini Feature Style1
+    6.2 Mini Feature Style2
+7 Screen Shots
+    7.1 Screen Shots Style1
+    7.2 Screen Shots Style2
+    7.3 mobile mockup
+    7.4 slider arrows
+8. Features
+    8.1 Feature Style1
+    8.2 Feature Style2
+9 Download
+10 Pricing
+11 Testimonials
+12 Team
+    12.1 Team Style2
+    12.1 Team Style1
+13 Video
+    13.1 Video Section
+    13.2 Video PopUp
+14 FAQ
+15 Statistics
+16 Blog
+    16.1 Normal Post
+    16.2 List Post
+    16.3 Single Post
+    16.4 Aside
+17 Contact
+    17.1 Contact Style1
+    17.2 Contact Style2
+18 Clients Logo
+19 Subscribe
+20 Footer
+21 Loading
+22 SUB PAGES ( 404 & Coming Soon )
+23 Responsive
+
 /*------------------------------------------------------------------------------------------*/
 /* 1. Color Codes */
 /*-----------------
@@ -951,7 +1002,7 @@ p {
 *********************************************/
 /* 4.1 Home Page Header */
 header.appsLand-header {
-  background: url('/static/img/bg/big-header.jpg') top center no-repeat fixed;
+  background: url(../img/bg/big-header.jpg) top center no-repeat fixed;
   background-size: cover;
   color: #FFFFFF;
   position: relative;
@@ -1014,7 +1065,7 @@ header.appsLand-header.cloud-bg .app-overlay:after {
   display: block;
   height: 120px;
   width: 100%;
-  background: url('/static/img/SVG/cloud.svg');
+  background: url(../img/SVG/cloud.svg);
   background-size: 218vh 100%;
   z-index: 2;
 }
@@ -1029,7 +1080,7 @@ header.appsLand-header.triangle-up-bg .app-overlay:after {
   display: block;
   height: 120px;
   width: 100%;
-  background: url('/static/img/SVG/triangle.svg');
+  background: url(../img/SVG/triangle.svg);
   background-size: cover;
   -webkit-transform: rotateX(180deg);
   -moz-transform: rotateX(180deg);
@@ -1050,7 +1101,7 @@ header.appsLand-header.triangle-down-bg-1 .app-overlay:after {
   display: block;
   height: 133px;
   width: calc(100% + 12px);
-  background: url('/static/img/SVG/triangle2.svg');
+  background: url(../img/SVG/triangle2.svg);
   background-size: cover;
   background-position: center bottom;
   z-index: 2;
@@ -1067,7 +1118,7 @@ header.appsLand-header.triangle-down-bg-2 .app-overlay:after {
   display: block;
   height: 133px;
   width: calc(100% + 12px);
-  background: url('/static/img/SVG/triangle2.svg');
+  background: url(../img/SVG/triangle2.svg);
   background-size: auto;
   background-position: center bottom;
   background-repeat: repeat-x;
@@ -1095,7 +1146,7 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
 
 /* 4.2 Sub Pages Header */
 .inner-header {
-  background: url('/static/img/bg/small-header.jpg') bottom center no-repeat fixed;
+  background: url(../img/bg/small-header.jpg) bottom center no-repeat fixed;
   background-size: cover;
   color: #FFFFFF;
   position: relative;
@@ -1488,7 +1539,7 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
 /* 9 Download
 *********************************************/
 .download {
-  background: url('/static/img/bg/download.jpg') center center no-repeat fixed;
+  background: url(../img/bg/download.jpg) center center no-repeat fixed;
   background-size: cover;
 }
 .download .download-buttons {
@@ -1568,7 +1619,7 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
 /* 11 Testimonials
 *********************************************/
 .testimonials {
-  background: url('/static/img/bg/testimonials.jpg') bottom center no-repeat fixed;
+  background: url(../img/bg/testimonials.jpg) bottom center no-repeat fixed;
   background-size: cover;
 }
 .testimonials .testimonials-template .testimonials-slide {
@@ -1905,7 +1956,7 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
 *********************************************/
 /* 13.1 Video Section */
 .video {
-  background: url('/static/img/bg/video.jpg') center center no-repeat fixed;
+  background: url(../img/bg/video.jpg) center center no-repeat fixed;
   background-size: cover;
   text-align: center;
 }
@@ -1991,7 +2042,7 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
 /* 15 Statistics
 *********************************************/
 .statistics {
-  background: url('/static/img/bg/statistics.jpg') bottom center no-repeat fixed;
+  background: url(../img/bg/statistics.jpg) bottom center no-repeat fixed;
   background-size: cover;
 }
 .statistics .download-buttons {
@@ -2559,7 +2610,7 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
 *********************************************/
 /* 17.1 Contact Style1 */
 .contact {
-  background: url('/static/img/bg/contact-address-bg.jpg') center center no-repeat fixed;
+  background: url(../img/bg/contact-address-bg.jpg) center center no-repeat fixed;
   background-size: cover;
 }
 .contact .contact-form {
@@ -3236,25 +3287,3 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
 }
 
 /*# sourceMappingURL=style.css.map */
-
-/* video */
-
-header video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
-
-header .container {
-  position: relative;
-  z-index: 1;
-}

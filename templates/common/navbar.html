@@ -18,9 +18,12 @@
             <ul class="nav navbar-nav navbar-right appsLand-links">
                 <li class="visible-xs-block text-center mobile-size-logo">
                     <a href="{% url 'landing' %}#">
-                        <img alt="" src="/static/img/app_land.png">
+{#                        <img alt="" src="/static/img/app_land.png">#}
                     </a>
                 </li>
+                <li><a href="{% url 'landing' %}#values">Values</a></li>
+                <li><a href="{% url 'landing' %}#approach">Approach</a></li>
+                <li><a href="{% url 'landing' %}#portfolio">Portfolio</a></li>
                 <li><a href="{% url 'landing' %}#team">Team</a></li>
                 <li><a href="{% url 'landing' %}#contact">Contact</a></li>
             </ul>

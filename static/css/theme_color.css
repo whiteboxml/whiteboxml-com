@@ -61,10 +61,10 @@ linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(83, 52, 109, 0.75))
 .gradient-bg-rgba,
 .appsLand-navbar.navBar__style-2.active-navbar,
 .team__style-2 .team-member .member-info {
-    background-image: -webkit-linear-gradient(to right, rgba(0, 0, 0, 0.75) 0%, rgba(83, 52, 109, 0.75) 100%);
-    background-image: -o-linear-gradient(to right, rgba(0, 0, 0, 0.75) 0%, rgba(83, 52, 109, 0.75) 100%);
-    background-image: -moz-linear-gradient(to right, rgba(0, 0, 0, 0.75) 0%, rgba(83, 52, 109, 0.75) 100%);
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75) 0%, rgba(83, 52, 109, 0.75) 100%);
+    background-image: -webkit-linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(83, 52, 109, 0.5) 100%);
+    background-image: -o-linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(83, 52, 109, 0.5) 100%);
+    background-image: -moz-linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(83, 52, 109, 0.5) 100%);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(83, 52, 109, 0.5) 100%);
 }
 
 .section-title.style-gradient > span:before {

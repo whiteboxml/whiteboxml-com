@@ -5,17 +5,17 @@
 
 <head>
 
-    <title>WhiteBoxML: AI Experts</title>
-    <link rel="canonical" href="https://whiteboxml.com"/>
+  <title>WhiteBox ML: AI Experts</title>
+  <link rel="canonical" href="https://whiteboxml.com"/>
 
-    {% include 'common/analytics.html' %}
-    {% include 'common/metadata.html' %}
-    {% include 'common/style.html' %}
+  {% include 'common/analytics.html' %}
+  {% include 'common/metadata.html' %}
+  {% include 'common/style.html' %}
 
 </head>
 
 <body data-spy="scroll" data-target="#bs-example-navbar-collapse-1" data-offset="5"
-      class="scrollspy-example without_bg_images">
+      class="scrollspy-example">
 
 <!-- navbar
 ========================================-->
@@ -23,408 +23,475 @@
 
 <!-- Header
 ========================================-->
-<header class="active-navbar appsLand-header" id="home">
-    <div class="app-overlay">
-
-        <video playsinline="playsinline"
-               autoplay="autoplay"
-               muted="muted"
-               loop="loop">
-            <source src="/static/video/city.mp4" type="video/mp4">
-        </video>
-
-        <div class="header-content">
-            <div class="container">
-                <div class="row">
-                    <div class="text-center text-center col-sm-10 col-sm-offset-1">
-                        <div class="site-intro-content">
-                            <h1 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">WhiteBox</h1>
-                            <p class="lead wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
-                                We craft AI systems for both enterprises and startups.
-                            </p>
-                            <ul class="list-inline list-unstyled header-links">
-                                <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.75s">
-                                    <a href="{% url 'landing' %}#contact"
-                                       class="appsLand-btn appsLand-btn-gradient btn-inverse scrollLink">
-                                        <span><i class="glyphicon glyphicon-phone-alt"></i> Contact Us</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+<header class="active-navbar appsLand-header bg-video" id="home">
+  <div class="the-video">
+    <video src="/static/video/city.mp4" loop muted autoplay></video>
+  </div>
+  <div class="app-overlay">
+    <div class="header-content">
+      <div class="container">
+        <div class="row">
+          <div class="text-center text-center col-sm-10 col-sm-offset-1">
+            <div class="site-intro-content">
+              <h1 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">WhiteBox ML</h1>
+              <p class="lead wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+                We craft AI systems for both enterprises and startups.
+              </p>
+              <ul class="list-inline list-unstyled header-links">
+                <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.75s">
+                  <a href="{% url 'landing' %}#contact"
+                     class="appsLand-btn appsLand-btn-gradient btn-inverse scrollLink">
+                    <span><i class="glyphicon glyphicon-phone-alt"></i> Contact Us</span>
+                  </a>
+                </li>
+              </ul>
             </div>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </header>
 
 <!-- Main Content
 ========================================-->
 <main class="entry-main">
 
-    <!-- Mini Feature Section
-    ========================================-->
-    <section class="mini-feature__style-2 section-without-title">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
-                    <div class="mini-feature-box">
-                        <div class="icon-box">
-                            <img alt="" src="/static/img/flat-icons/01.png">
-                            <img alt="" src="/static/img/flat-icons/01.png">
-                        </div>
-                        <div class="data-box">
-                            <h3>Transparency</h3>
-                            <p>
-
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
-                    <div class="mini-feature-box">
-                        <div class="icon-box">
-                            <img alt="" src="/static/img/flat-icons/02.png">
-                            <img alt="" src="/static/img/flat-icons/02.png">
-                        </div>
-                        <div class="data-box">
-                            <h3>Color Changer</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda hic inventore
-                                itaque,
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-                    <div class="mini-feature-box">
-                        <div class="icon-box">
-                            <img alt="" src="/static/img/flat-icons/03.png">
-                            <img alt="" src="/static/img/flat-icons/03.png">
-                        </div>
-                        <div class="data-box">
-                            <h3>Creative Design</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda hic inventore
-                                itaque,
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
-                    <div class="mini-feature-box">
-                        <div class="icon-box">
-                            <img alt="" src="/static/img/flat-icons/04.png">
-                            <img alt="" src="/static/img/flat-icons/04.png">
-                        </div>
-                        <div class="data-box">
-                            <h3>Responsive Design</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda hic inventore
-                                itaque,
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
-                    <div class="mini-feature-box">
-                        <div class="icon-box">
-                            <img alt="" src="/static/img/flat-icons/05.png">
-                            <img alt="" src="/static/img/flat-icons/05.png">
-                        </div>
-                        <div class="data-box">
-                            <h3>Fast Update</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda hic inventore
-                                itaque,
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-                    <div class="mini-feature-box">
-                        <div class="icon-box">
-                            <img alt="" src="/static/img/flat-icons/06.png">
-                            <img alt="" src="/static/img/flat-icons/06.png">
-                        </div>
-                        <div class="data-box">
-                            <h3>Quick Start</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda hic inventore
-                                itaque,
-                            </p>
-                        </div>
-                    </div>
-                </div>
+  <!-- Mini Feature Section
+  ========================================-->
+  <section class="mini-feature__style-2 section-without-title">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
+          <div class="mini-feature-box">
+            <div class="icon-box">
+              <img alt="" src="/static/img/flat-icons/01.png">
+              <img alt="" src="/static/img/flat-icons/01.png">
             </div>
+            <div class="data-box">
+              <h3>Clean Code</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda hic
+                inventore
+                itaque,
+              </p>
+            </div>
+          </div>
         </div>
-    </section>
-
-    <!-- Portfolio / Screenshots Section
-    ========================================-->
-    <section class="screenShots" id="screenShots">
-        <div>
-            <div class="section-title style-gradient wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
-                <h2>
-                    Portfolio
-                </h2>
-                <span><span></span></span>
+        <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+          <div class="mini-feature-box">
+            <div class="icon-box">
+              <img alt="" src="/static/img/flat-icons/02.png">
+              <img alt="" src="/static/img/flat-icons/02.png">
             </div>
-            <div class="app-screen">
-                <div class="mobile-mockup text-center">
-                    <img alt="" src="/static/img/mobile__.png">
-                </div>
-                <!-- Slider main container -->
-                <div class="swiper-container wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img alt="" src="/static/img/slider/01.jpg" class="img-responsive">
-                        </div>
-                        <div class="swiper-slide">
-                            <img alt="" src="/static/img/slider/02.jpg" class="img-responsive">
-                        </div>
-                        <div class="swiper-slide">
-                            <img alt="" src="/static/img/slider/03.jpg" class="img-responsive">
-                        </div>
-                        <div class="swiper-slide">
-                            <img alt="" src="/static/img/slider/04.jpg" class="img-responsive">
-                        </div>
-                        <div class="swiper-slide">
-                            <img alt="" src="/static/img/slider/05.jpg" class="img-responsive">
-                        </div>
-                        <div class="swiper-slide">
-                            <img alt="" src="/static/img/slider/06.jpg" class="img-responsive">
-                        </div>
-                        <div class="swiper-slide">
-                            <img alt="" src="/static/img/slider/07.jpg" class="img-responsive">
-                        </div>
-                        <div class="swiper-slide">
-                            <img alt="" src="/static/img/slider/08.jpg" class="img-responsive">
-                        </div>
-                    </div>
-                    <!-- Add Arrows -->
-                    <div class="custom_slider_arrows">
-                        <ul class="list-inline list-unstyled">
-                            <li>
-                                <button class="appsLand-btn appsLand-btn-gradient screenShots__style-1__btn-prev">
-                                    <span><i class="fa fa-angle-left"></i></span>
-                                </button>
-                            </li>
-                            <li>
-                                <button class="appsLand-btn appsLand-btn-gradient screenShots__style-1__btn-next">
-                                    <span><i class="fa fa-angle-right"></i></span>
-                                </button>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="data-box">
+              <h3>Color Changer</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda hic
+                inventore
+                itaque,
+              </p>
             </div>
+          </div>
         </div>
-    </section>
-
-
-    <!-- Team Section
-    ========================================-->
-    <section class="team__style-2" id="team">
-        <div class="container">
-            <div class="section-title style-gradient wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
-                <h2>
-                    Team
-                </h2>
-                <span><span></span></span>
+        <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+          <div class="mini-feature-box">
+            <div class="icon-box">
+              <img alt="" src="/static/img/flat-icons/03.png">
+              <img alt="" src="/static/img/flat-icons/03.png">
             </div>
-            <div class="row">
-                <div class="col-md-6 col-sm-6">
-                    <div class="team-member wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
-                        <div class="team-member-content">
-                            <div class="member-pic">
-{#                                TODO: optimize images for web#}
-                                <img alt="" src="/static/img/team/pedro.jpg" class="img-responsive">
-                            </div>
-                            <div class="member-info">
-                                <div class="info-content">
-                                    <div class="name-career">
-                                        <h4>Pedro Muñoz</h4>
-                                        <span>🔬 Data Scientist | 🏢 Big Data Architect | 🤖 Machine Learning Engineer</span>
-                                    </div>
-                                    <ul class="list-inline list-unstyled member-social">
-                                        <li>
-                                            <a href="https://twitter.com/pedro_munoz_"><i class="fa fa-twitter"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.linkedin.com/in/pedro-munoz-botas">
-                                                <i class="fa fa-linkedin"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                    <div class="team-member wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <div class="team-member-content">
-                            <div class="member-pic">
-
-                                <img alt="" src="/static/img/team/david.jpg" class="img-responsive">
-                            </div>
-                            <div class="member-info">
-                                <div class="info-content">
-                                    <div class="name-career">
-                                        <h4>David Adrián Cañones</h4>
-                                        <span>🔬 Data Scientist | 🤖 Machine Learning Engineer | 💹 MBA</span>
-                                    </div>
-                                    <ul class="list-inline list-unstyled member-social">
-                                        <li>
-                                            <a href="https://twitter.com/dcanones"><i class="fa fa-twitter"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.linkedin.com/in/davidadrian">
-                                                <i class="fa fa-linkedin"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="data-box">
+              <h3>Creative Design</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda hic
+                inventore
+                itaque,
+              </p>
             </div>
+          </div>
         </div>
-    </section>
-
-    <!-- Contact Section
-    ========================================-->
-    <section class="contact contact__style-2 section-bg-img" id="contact">
-        <div class="app-overlay">
-            <div class="container">
-                <div class="section-title style-gradient white-color wow fadeInUp" data-wow-duration="1s"
-                     data-wow-delay="0s">
-                    <h2>
-                        Contact Us
-                    </h2>
-                    <span><span></span></span>
-                </div>
-                <div class="contact-form wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
-                    <div class="row">
-                        <div class="col-md-4 col-lg-push-8 col-md-push-8">
-                            <div class="contact-info">
-                                <div class="info-box">
-                                    <div class="icon-box">
-                                        <i class="fa fa-phone white-color"></i>
-                                    </div>
-                                    <h5>Phone Number</h5>
-                                    <p>
-                                        +2 011 111 2222
-                                    </p>
-                                </div>
-                                <div class="info-box">
-                                    <div class="icon-box">
-                                        <i class="fa fa-envelope-o white-color"></i>
-                                    </div>
-                                    <h5>Email Address</h5>
-                                    <p>
-                                        info@mrkayo.com
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-8 col-lg-pull-4 col-md-pull-4">
-                            <form action="https://hinata.mrkayo.com/php/sendMessage.php" method="post"
-                                  id="contact_form">
-                                <div class="form-group">
-                                    <input type="text" name="full_name" class="form-control" placeholder="Full Name"
-                                           data-nameValidation>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" name="email" class="form-control" placeholder="Email"
-                                           data-emailValidation>
-                                </div>
-                                <div class="form-group">
-                                    <textarea name="message" class="form-control" placeholder="Your Message"
-                                              data-messageValidation></textarea>
-                                </div>
-                                <div class="form-group">
-                                    <button type="submit" name="submit_contact_form"
-                                            class="appsLand-btn appsLand-btn-gradient btn-inverse btn"><span><i
-                                            class="fa fa-send"></i> Send Message</span></button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+        <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
+          <div class="mini-feature-box">
+            <div class="icon-box">
+              <img alt="" src="/static/img/flat-icons/04.png">
+              <img alt="" src="/static/img/flat-icons/04.png">
             </div>
-        </div>
-    </section>
-
-    <!-- Client Logo Section
-    ========================================-->
-    <div class="clients-logo">
-        <div class="container">
-            <div class="clientLogos-slider-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <a href="index.html#">
-                            <img alt="" src="/static/img/clients-logo/logo-1.png" class="img-responsive">
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="index.html#">
-                            <img alt="" src="/static/img/clients-logo/logo-7.png" class="img-responsive">
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="index.html#">
-                            <img alt="" src="/static/img/clients-logo/logo-2.png" class="img-responsive">
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="index.html#">
-                            <img alt="" src="/static/img/clients-logo/logo-3.png" class="img-responsive">
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="index.html#">
-                            <img alt="" src="/static/img/clients-logo/logo-4.png" class="img-responsive">
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="index.html#">
-                            <img alt="" src="/static/img/clients-logo/logo-9.png" class="img-responsive">
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="index.html#">
-                            <img alt="" src="/static/img/clients-logo/logo-5.png" class="img-responsive">
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="index.html#">
-                            <img alt="" src="/static/img/clients-logo/logo-6.png" class="img-responsive">
-                        </a>
-                    </div>
-                </div>
+            <div class="data-box">
+              <h3>Responsive Design</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda hic
+                inventore
+                itaque,
+              </p>
             </div>
+          </div>
         </div>
+        <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+          <div class="mini-feature-box">
+            <div class="icon-box">
+              <img alt="" src="/static/img/flat-icons/05.png">
+              <img alt="" src="/static/img/flat-icons/05.png">
+            </div>
+            <div class="data-box">
+              <h3>Fast Update</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda hic
+                inventore
+                itaque,
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+          <div class="mini-feature-box">
+            <div class="icon-box">
+              <img alt="" src="/static/img/flat-icons/06.png">
+              <img alt="" src="/static/img/flat-icons/06.png">
+            </div>
+            <div class="data-box">
+              <h3>Quick Start</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda hic
+                inventore
+                itaque,
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
+
+  <!-- Features Section
+  ========================================-->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-title style-gradient wow fadeInUp" data-wow-duration="1s"
+           data-wow-delay="0s">
+        <h2>
+          Feature
+        </h2>
+        <span><span></span></span>
+      </div>
+      <div class="appInfo-container">
+        <div class="row appInfo-row">
+          <div class="col-md-6 col-md-offset-1 col-sm-7">
+            <div class="appInfo-data wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+              <h2>Easy To Use</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid dolorem
+                eaque earum error maiores nemo nihil non, nulla officia optio pariatur quam,
+                quisquam, quod rem reprehenderit tempore velit vitae.
+              </p>
+              <a href="index-demo1-video_bg.html#" class="appsLand-btn appsLand-btn-gradient"><span>Read More</span></a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-5 hidden-xs">
+            <div class="img-box wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+              <img alt="" src="/static/img/mockups/02.png" class="img-responsive">
+            </div>
+          </div>
+        </div>
+        <div class="row appInfo-row">
+          <div class="col-md-4 col-md-offset-1 col-sm-5 hidden-xs">
+            <div class="img-box wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
+              <img alt="" src="/static/img/mockups/03.png" class="img-responsive">
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-7">
+            <div class="appInfo-data wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+              <h2>Modern Design</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid dolorem
+                eaque earum error maiores nemo nihil non, nulla officia optio pariatur quam,
+                quisquam, quod rem reprehenderit tempore velit vitae.
+              </p>
+              <a href="index-demo1-video_bg.html#" class="appsLand-btn appsLand-btn-gradient"><span>Read More</span></a>
+            </div>
+          </div>
+        </div>
+        <div class="row appInfo-row">
+          <div class="col-md-6 col-md-offset-1 col-sm-7">
+            <div class="appInfo-data wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+              <h2>Easy To Use</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid dolorem
+                eaque earum error maiores nemo nihil non, nulla officia optio pariatur quam,
+                quisquam, quod rem reprehenderit tempore velit vitae.
+              </p>
+              <a href="index-demo1-video_bg.html#" class="appsLand-btn appsLand-btn-gradient"><span>Read More</span></a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-5 hidden-xs">
+            <div class="img-box wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+              <img alt="" src="/static/img/mockups/02.png" class="img-responsive">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section
+  ========================================-->
+  <section class="testimonials section-bg-img" id="testimonials">
+    <div class="app-overlay">
+      <div class="container">
+        <div class="section-title style-gradient white-color wow fadeInUp" data-wow-duration="1s"
+             data-wow-delay="0s">
+          <h2>
+            Testimonials
+          </h2>
+          <span><span></span></span>
+        </div>
+        <div class="testimonials-template">
+          <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+              <div class="testimonials-slider-container wow fadeInUp" data-wow-duration="1s"
+                   data-wow-delay="0.25s">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide testimonials-slide">
+                    <div class="row table-row">
+                      <div class="col-lg-3 col-left table-cel">
+                        <div class="client-info text-center">
+                          <div class="client-pic">
+                            <img alt="" src="/static/img/clients/01.jpg" class="center-block">
+                          </div>
+                          <h4 class="client-name">John Doe</h4>
+                          <p class="client-career">Web designer</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-9 col-right table-cel">
+                        <div class="client-review">
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                            commodi eaque earum facere ipsa minus nemo numquam provident quod sed,
+                            soluta tempore velit. Doloribus dolorum ducimus obcaecati optio quasi
+                            tenetur, consectetur adipisicing elit. Accusamus aliquam dolorum, eum
+                            eveniet fugiat minus nesciunt nostrum odit optio, pariatur possimus quam
+                            quas quasi, quia quo velit veritatis. Earum, eum!
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide testimonials-slide">
+                    <div class="row table-row">
+                      <div class="col-lg-3 col-left table-cel">
+                        <div class="client-info text-center">
+                          <div class="client-pic">
+                            <img alt="" src="/static/img/clients/02.jpg" class="center-block">
+                          </div>
+                          <h4 class="client-name">Sam Alien</h4>
+                          <p class="client-career">SEO Specialist</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-9 col-right table-cel">
+                        <div class="client-review">
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                            commodi eaque earum facere ipsa minus nemo numquam provident quod sed,
+                            soluta tempore velit. Doloribus dolorum ducimus obcaecati optio quasi
+                            tenetur, consectetur adipisicing elit. Accusamus aliquam dolorum, eum
+                            eveniet fugiat minus nesciunt nostrum odit optio, pariatur possimus quam
+                            quas quasi, quia quo velit veritatis. Earum, eum!
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide testimonials-slide">
+                    <div class="row table-row">
+                      <div class="col-lg-3 col-left table-cel">
+                        <div class="client-info text-center">
+                          <div class="client-pic">
+                            <img alt="" src="/static/img/clients/03.jpg" class="center-block">
+                          </div>
+                          <h4 class="client-name">Raul John</h4>
+                          <p class="client-career">Back End</p>
+                        </div>
+                      </div>
+                      <div class="col-lg-9 col-right table-cel">
+                        <div class="client-review">
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                            commodi eaque earum facere ipsa minus nemo numquam provident quod sed,
+                            soluta tempore velit. Doloribus dolorum ducimus obcaecati optio quasi
+                            tenetur, consectetur adipisicing elit. Accusamus aliquam dolorum, eum
+                            eveniet fugiat minus nesciunt nostrum odit optio, pariatur possimus quam
+                            quas quasi, quia quo velit veritatis. Earum, eum!
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Add Arrows -->
+                <div class="testimonials-slider-button-prev swiper-button-prev"></div>
+                <div class="testimonials-slider-button-next swiper-button-next"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section
+========================================-->
+  <section class="team__style-2" id="team">
+    <div class="container">
+      <div class="section-title style-gradient wow fadeInUp" data-wow-duration="1s"
+           data-wow-delay="0s">
+        <h2>
+          Team
+        </h2>
+        <span><span></span></span>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <div class="team-member wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+            <div class="team-member-content">
+              <div class="member-pic">
+                {#                                TODO: optimize img for web#}
+                <img alt="" src="/static/img/team/pedro.jpg" class="img-responsive">
+              </div>
+              <div class="member-info">
+                <div class="info-content">
+                  <div class="name-career">
+                    <h4>Pedro Muñoz</h4>
+                    <span>🔬 Data Scientist | 🏢 Big Data Architect | 🤖 Machine Learning Engineer</span>
+                  </div>
+                  <ul class="list-inline list-unstyled member-social">
+                    <li>
+                      <a href="https://twitter.com/pedro_munoz_"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/in/pedro-munoz-botas">
+                        <i class="fa fa-linkedin"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <div class="team-member wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+            <div class="team-member-content">
+              <div class="member-pic">
+
+                <img alt="" src="/static/img/team/david.jpg" class="img-responsive">
+              </div>
+              <div class="member-info">
+                <div class="info-content">
+                  <div class="name-career">
+                    <h4>David Adrián Cañones</h4>
+                    <span>🔬 Data Scientist | 🤖 Machine Learning Engineer | 💹 MBA</span>
+                  </div>
+                  <ul class="list-inline list-unstyled member-social">
+                    <li>
+                      <a href="https://twitter.com/dcanones"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/in/davidadrian">
+                        <i class="fa fa-linkedin"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section
+  ========================================-->
+  <section class="contact contact__style-2 section-bg-img" id="contact">
+    <div class="app-overlay">
+      <div class="container">
+        <div class="section-title style-gradient white-color wow fadeInUp" data-wow-duration="1s"
+             data-wow-delay="0s">
+          <h2>
+            Contact Us
+          </h2>
+          <span><span></span></span>
+        </div>
+        <div class="contact-form wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+          <div class="row">
+            <div class="col-md-4 col-lg-push-8 col-md-push-8">
+              <div class="contact-info">
+                <div class="info-box">
+                  <div class="icon-box">
+                    <i class="fa fa-phone white-color"></i>
+                  </div>
+                  <h5>Phone Number</h5>
+                  <p>
+                    +2 011 111 2222
+                  </p>
+                </div>
+                <div class="info-box">
+                  <div class="icon-box">
+                    <i class="fa fa-envelope-o white-color"></i>
+                  </div>
+                  <h5>Email Address</h5>
+                  <p>
+                    info@mrkayo.com
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8 col-lg-pull-4 col-md-pull-4">
+              <form action="https://hinata.mrkayo.com/php/sendMessage.php" method="post"
+                    id="contact_form">
+                <div class="form-group">
+                  <input type="text" name="full_name" class="form-control" placeholder="Full Name"
+                         data-nameValidation>
+                </div>
+                <div class="form-group">
+                  <input type="text" name="email" class="form-control" placeholder="Email"
+                         data-emailValidation>
+                </div>
+                <div class="form-group">
+                  <textarea name="message" class="form-control" placeholder="Your Message"
+                            data-messageValidation></textarea>
+                </div>
+                <div class="form-group">
+                  <button type="submit" name="submit_contact_form"
+                          class="appsLand-btn appsLand-btn-gradient btn-inverse btn"><span><i
+                      class="fa fa-send"></i> Send Message</span></button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 </main>
 
 <!-- Scroll To Top
 ========================================-->
-<div class="scrollToTop appsLand-btn appsLand-btn-gradient"><span><i class="fa fa-angle-up"></i></span></div>
+<div class="scrollToTop appsLand-btn appsLand-btn-gradient"><span><i
+    class="fa fa-angle-up"></i></span></div>
 
 <!-- Loading
 ========================================-->
 <div class="loading">
-    <div class="spinner">
-        <div class="double-bounce1"></div>
-        <div class="double-bounce2"></div>
-    </div>
+  <div class="spinner">
+    <div class="double-bounce1"></div>
+    <div class="double-bounce2"></div>
+  </div>
 </div>
 
 <!-- Footer
 ========================================-->
 {% include 'common/footer.html' %}
+
 {% include 'common/scripts.html' %}
 
 </body>
