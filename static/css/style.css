@@ -3298,3 +3298,9 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
 .apps-footer .footer-bottom p {
   color: white;
 }
+
+/* fix for bottom padding, values section */
+
+#values {
+  padding-bottom: 0;
+}
