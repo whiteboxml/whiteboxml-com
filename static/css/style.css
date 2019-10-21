@@ -1002,7 +1002,6 @@ p {
 *********************************************/
 /* 4.1 Home Page Header */
 header.appsLand-header {
-  background: url(../img/bg/big-header.jpg) top center no-repeat fixed;
   background-size: cover;
   color: #FFFFFF;
   position: relative;
@@ -1026,7 +1025,7 @@ header.appsLand-header.bg-video .the-video {
   left: 0;
 }
 header.appsLand-header.bg-video .the-video video {
-  width: 100%;
+  width: auto;
 }
 header.appsLand-header .app-overlay {
   padding-top: 202px;
@@ -1619,7 +1618,7 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
 /* 11 Testimonials
 *********************************************/
 .testimonials {
-  background: url(../img/bg/portfolio.jpeg) bottom center no-repeat fixed;
+  background: url(../img/bg/portfolio.jpg) bottom center no-repeat fixed;
   background-size: cover;
 }
 .testimonials .testimonials-template .testimonials-slide {
