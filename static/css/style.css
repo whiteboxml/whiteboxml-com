@@ -1619,7 +1619,7 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
 /* 11 Testimonials
 *********************************************/
 .testimonials {
-  background: url(../img/bg/portfolio.jpg) bottom center no-repeat fixed;
+  background: url(../img/bg/portfolio.jpeg) bottom center no-repeat fixed;
   background-size: cover;
 }
 .testimonials .testimonials-template .testimonials-slide {
@@ -2610,7 +2610,7 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
 *********************************************/
 /* 17.1 Contact Style1 */
 .contact {
-  background: url(../img/bg/contact-address-bg.jpg) center center no-repeat fixed;
+  background: url(../img/bg/contact.jpg) center center no-repeat fixed;
   background-size: cover;
 }
 .contact .contact-form {

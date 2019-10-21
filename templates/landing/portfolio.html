@@ -1,0 +1,463 @@
+{% load static %}
+
+<section class="testimonials section-bg-img" id="portfolio">
+  <div class="app-overlay">
+    <div class="container">
+      <div class="section-title style-gradient white-color wow fadeInUp" data-wow-duration="1s"
+           data-wow-delay="0s">
+        <h2>
+          Portfolio
+        </h2>
+        <span><span></span></span>
+      </div>
+      <div class="testimonials-template">
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-1">
+            <div class="testimonials-slider-container wow fadeInUp" data-wow-duration="1s"
+                 data-wow-delay="0.25s">
+              <div class="swiper-wrapper">
+
+                <!-- Energy -->
+                <div class="swiper-slide testimonials-slide">
+                  <div class="row table-row">
+                    <div class="col-lg-3 col-left table-cel">
+                      <div class="client-info text-center">
+                        <div class="client-pic">
+                          <img alt="" src="/static/img/portfolio/wind_mill.jpg"
+                               class="center-block">
+                        </div>
+                        <h4 class="client-name">Wind Power Forecasting</h4>
+                        <p class="client-career">Energy</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-9 col-right table-cel">
+                      <div class="client-review">
+                        <h5 class="portfolio-section-title">Description</h5>
+                        <div class="portfolio-section-content">
+                          Prediction of future power generation of renewable energy plants based
+                          on meteorological
+                          information (three-dimensional grids).
+                        </div>
+                        <h5 class="portfolio-section-title">Results</h5>
+                        <div class="portfolio-section-content">
+                          Improvement of 10 percentage points in the normalized forecasting error
+                          versus previous
+                          models. Millions of $ in savings for our client when going to the US
+                          electricity bid.
+                        </div>
+                        <h5 class="portfolio-section-title">Technology</h5>
+                        <div class="portfolio-section-content">
+                          Data ingestion with Spark (Scala) over Hortonworks infrastructure.
+                          Modeling with
+                          scikit-learn and lightGBM. Orchestration with Apache Airflow.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide testimonials-slide">
+                  <div class="row table-row">
+                    <div class="col-lg-3 col-left table-cel">
+                      <div class="client-info text-center">
+                        <div class="client-pic">
+                          <img alt="" src="/static/img/portfolio/predictive_maintenance.jpg"
+                               class="center-block">
+                        </div>
+                        <h4 class="client-name">Predictive Maintenance</h4>
+                        <p class="client-career">Energy</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-9 col-right table-cel">
+                      <div class="client-review">
+                        <h5 class="portfolio-section-title">Description</h5>
+                        <div class="portfolio-section-content">
+                          Calculation of damage due to fatigue of structural components of wind
+                          turbines and the time of failure forecasting.
+                        </div>
+                        <h5 class="portfolio-section-title">Results</h5>
+                        <div class="portfolio-section-content">
+                          Development of a model which emulates the results of commercial enterprise
+                          software, which generates a saving of ~30K€ / year in software licenses
+                          and a huge increase in Know-How about wind turbines fatigue.
+                        </div>
+                        <h5 class="portfolio-section-title">Technology</h5>
+                        <div class="portfolio-section-content">
+                          Treatment and study of fatigue time series with pandas. Predictive model
+                          based on linear methods. High performance computing with NumPy and Fortran
+                          90.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Telecommunications -->
+                <div class="swiper-slide testimonials-slide">
+                  <div class="row table-row">
+                    <div class="col-lg-3 col-left table-cel">
+                      <div class="client-info text-center">
+                        <div class="client-pic">
+                          <img alt="" src="/static/img/portfolio/mobile_network.jpg"
+                               class="center-block">
+                        </div>
+                        <h4 class="client-name">Mobile Network User Experience</h4>
+                        <p class="client-career">Telecommunications</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-9 col-right table-cel">
+                      <div class="client-review">
+                        <h5 class="portfolio-section-title">Description</h5>
+                        <div class="portfolio-section-content">
+                          Development of a Customer Experience Management (CEM) Framework. Network
+                          quality data ingestion from 3G / 4G antennas. Creation of a model to
+                          predict customer experience effect on churn and complaints.
+                        </div>
+                        <h5 class="portfolio-section-title">Results</h5>
+                        <div class="portfolio-section-content">
+                          Complete mobile network monitoring and ability to identify antennas with
+                          low performance and negative impact on user experience at individual
+                          aggregation level.
+                        </div>
+                        <h5 class="portfolio-section-title">Technology</h5>
+                        <div class="portfolio-section-content">
+                          Data ingestion made with Python and Impala over Cloudera infrastructure.
+                          Modeling with scikit-learn. Visualizations with Matplotlib and seaborn.
+                          Dashboards with Microsoft Power BI.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide testimonials-slide">
+                  <div class="row table-row">
+                    <div class="col-lg-3 col-left table-cel">
+                      <div class="client-info text-center">
+                        <div class="client-pic">
+                          <img alt="" src="/static/img/portfolio/user_complaints.jpg"
+                               class="center-block">
+                        </div>
+                        <h4 class="client-name">User Complaints Forecasting</h4>
+                        <p class="client-career">Telecommunications</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-9 col-right table-cel">
+                      <div class="client-review">
+                        <h5 class="portfolio-section-title">Description</h5>
+                        <div class="portfolio-section-content">
+                          Predictive model for customers probability to open issues due to
+                          disagreements in billing, based on their consumption patterns and
+                          individual personal profile.
+                        </div>
+                        <h5 class="portfolio-section-title">Results</h5>
+                        <div class="portfolio-section-content">
+                          Classification model with ~ 0.85 AUC over very unbalanced data. Automation
+                          of part of the customer service process.
+                        </div>
+                        <h5 class="portfolio-section-title">Technology</h5>
+                        <div class="portfolio-section-content">
+                          Creation of data mart using PySpark. Modeling using Spark MLlib.
+                          Visualizations with Matplotlib, Plotly and Seaborn.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide testimonials-slide">
+                  <div class="row table-row">
+                    <div class="col-lg-3 col-left table-cel">
+                      <div class="client-info text-center">
+                        <div class="client-pic">
+                          <img alt="" src="/static/img/portfolio/mobile_operators.jpg"
+                               class="center-block">
+                        </div>
+                        <h4 class="client-name">Mobile Operators Benchmarking</h4>
+                        <p class="client-career">Telecommunications</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-9 col-right table-cel">
+                      <div class="client-review">
+                        <h5 class="portfolio-section-title">Description</h5>
+                        <div class="portfolio-section-content">
+                          Massive data ingestion of antenna performance, package loss, network
+                          parameters... collected by cars to calculate those KPIs associated to the
+                          benchmarking.
+                        </div>
+                        <h5 class="portfolio-section-title">Results</h5>
+                        <div class="portfolio-section-content">
+                          KPIs of network performance for the mobile operators benchmarking on each
+                          country.
+                        </div>
+                        <h5 class="portfolio-section-title">Technology</h5>
+                        <div class="portfolio-section-content">
+                          Spark on Java for the ETL, Impala and Hive for data analysis and Tableau
+                          for data visualization.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Healthcare & Pharma -->
+                <div class="swiper-slide testimonials-slide">
+                  <div class="row table-row">
+                    <div class="col-lg-3 col-left table-cel">
+                      <div class="client-info text-center">
+                        <div class="client-pic">
+                          <img alt="" src="/static/img/portfolio/data_pipelines.jpg"
+                               class="center-block">
+                        </div>
+                        <h4 class="client-name">Data Pipelines Optimization</h4>
+                        <p class="client-career">Healthcare & Pharma</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-9 col-right table-cel">
+                      <div class="client-review">
+                        <h5 class="portfolio-section-title">Description</h5>
+                        <div class="portfolio-section-content">
+                          Client had a big problem in terms of Spark process performance due to the
+                          huge amount of data to process (~ TB).
+                        </div>
+                        <h5 class="portfolio-section-title">Results</h5>
+                        <div class="portfolio-section-content">
+                          Complete optimization of the data pipeline that allowed to go from
+                          computing times in the order of days to a few minutes.
+                        </div>
+                        <h5 class="portfolio-section-title">Technology</h5>
+                        <div class="portfolio-section-content">
+                          Spark with Scala for data processing. Flume and Sqoop for data ingestion.
+                          Storage in HDFS available through Hive SQL engine. All over MapR
+                          technology.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide testimonials-slide">
+                  <div class="row table-row">
+                    <div class="col-lg-3 col-left table-cel">
+                      <div class="client-info text-center">
+                        <div class="client-pic">
+                          <img alt="" src="/static/img/portfolio/analytical_engine.jpg"
+                               class="center-block">
+                        </div>
+                        <h4 class="client-name">Analytical Engine for Researchers</h4>
+                        <p class="client-career">Healthcare & Pharma</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-9 col-right table-cel">
+                      <div class="client-review">
+                        <h5 class="portfolio-section-title">Description</h5>
+                        <div class="portfolio-section-content">
+                          Project with support of the H2020 program. Creation of an analytical
+                          engine capable of scraping data from different sources and relating them
+                          to each other. Search engine with the use of Natural Language Processing.
+                        </div>
+                        <h5 class="portfolio-section-title">Results</h5>
+                        <div class="portfolio-section-content">
+                          Application that is able to translate searches in Natural Language into
+                          exportable tables and visualizations made from heterogeneous data.
+                        </div>
+                        <h5 class="portfolio-section-title">Technology</h5>
+                        <div class="portfolio-section-content">
+                          NLP model made with NLTK. Web scraping with Selenium, Beautiful Soup and
+                          Requests. Web application based on Django. Visualizations with Bokeh.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Retail -->
+                <div class="swiper-slide testimonials-slide">
+                  <div class="row table-row">
+                    <div class="col-lg-3 col-left table-cel">
+                      <div class="client-info text-center">
+                        <div class="client-pic">
+                          <img alt="" src="/static/img/portfolio/footfall_analytics.gif"
+                               class="center-block">
+                        </div>
+                        <h4 class="client-name">Footfall Analytics</h4>
+                        <p class="client-career">Retail</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-9 col-right table-cel">
+                      <div class="client-review">
+                        <h5 class="portfolio-section-title">Description</h5>
+                        <div class="portfolio-section-content">
+                          People detection and counting both in store and on public roads and heat
+                          maps to determine the areas with the greatest influx in supermarket
+                          shelves.
+                        </div>
+                        <h5 class="portfolio-section-title">Results</h5>
+                        <div class="portfolio-section-content">
+                          Success in getting the best possible store location (pedestrian analysis)
+                          and the best product layout (store heatmaps).
+                        </div>
+                        <h5 class="portfolio-section-title">Technology</h5>
+                        <div class="portfolio-section-content">
+                          OpenCV for image processing and TensorFlow for detection models. All
+                          restricted to the requirements of the Google Edge TPU hardware.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide testimonials-slide">
+                  <div class="row table-row">
+                    <div class="col-lg-3 col-left table-cel">
+                      <div class="client-info text-center">
+                        <div class="client-pic">
+                          <img alt="" src="/static/img/portfolio/customer_issues.jpg"
+                               class="center-block">
+                        </div>
+                        <h4 class="client-name">Classification of Customer Issues</h4>
+                        <p class="client-career">Retail</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-9 col-right table-cel">
+                      <div class="client-review">
+                        <h5 class="portfolio-section-title">Description</h5>
+                        <div class="portfolio-section-content">
+                          Classification of customer issues in online stores. Data processing using
+                          NLP and categorization into 18 different types.
+                        </div>
+                        <h5 class="portfolio-section-title">Results</h5>
+                        <div class="portfolio-section-content">
+                          Automation of part of the customer support process. Only those issues that
+                          the algorithm is unable to classify with confidence are handled manually.
+                        </div>
+                        <h5 class="portfolio-section-title">Technology</h5>
+                        <div class="portfolio-section-content">
+                          NLP model made with NLTK. Integration with the rest of the systems in the
+                          form of REST API using Flask.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Startups -->
+                <div class="swiper-slide testimonials-slide">
+                  <div class="row table-row">
+                    <div class="col-lg-3 col-left table-cel">
+                      <div class="client-info text-center">
+                        <div class="client-pic">
+                          <img alt="" src="/static/img/portfolio/moderator_guru.jpg"
+                               class="center-block">
+                        </div>
+                        <h4 class="client-name">Moderator Guru</h4>
+                        <p class="client-career">Startups</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-9 col-right table-cel">
+                      <div class="client-review">
+                        <h5 class="portfolio-section-title">Description</h5>
+                        <div class="portfolio-section-content">
+                          The Moderator Guru is a Machine Learning, Natural Language Processing
+                          based text moderator service that detects and classifies offensive text
+                          messages.
+                        </div>
+                        <h5 class="portfolio-section-title">Results</h5>
+                        <div class="portfolio-section-content">
+                          API endpoint capable to process thousands of requests per minute.
+                          Currently working on a Wordpress plugin. <br>URL:
+                          https://moderator-guru.com
+                        </div>
+                        <h5 class="portfolio-section-title">Technology</h5>
+                        <div class="portfolio-section-content">
+                          NLP model focused on speed. Django for backend and vanilla frontend.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide testimonials-slide">
+                  <div class="row table-row">
+                    <div class="col-lg-3 col-left table-cel">
+                      <div class="client-info text-center">
+                        <div class="client-pic">
+                          <img alt="" src="/static/img/portfolio/renfe_guru.jpeg"
+                               class="center-block">
+                        </div>
+                        <h4 class="client-name">Renfe Guru</h4>
+                        <p class="client-career">Startups</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-9 col-right table-cel">
+                      <div class="client-review">
+                        <h5 class="portfolio-section-title">Description</h5>
+                        <div class="portfolio-section-content">
+                          Web scraping of renfe.com to extract high speed train data, in order to
+                          take advantage of pricing changes and save money in train journeys.
+                        </div>
+                        <h5 class="portfolio-section-title">Results</h5>
+                        <div class="portfolio-section-content">
+                          Work In Progress. Expected alarm system for ticket pricing changes and
+                          Machine Learning model for predicting when these changes are more likely
+                          to happen.
+                        </div>
+                        <h5 class="portfolio-section-title">Technology</h5>
+                        <div class="portfolio-section-content">
+                          Working on the most suitable algorithm for the train data. Django for
+                          backend and vanilla frontend.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide testimonials-slide">
+                  <div class="row table-row">
+                    <div class="col-lg-3 col-left table-cel">
+                      <div class="client-info text-center">
+                        <div class="client-pic">
+                          <img alt="" src="/static/img/portfolio/datatau.png"
+                               class="center-block">
+                        </div>
+                        <h4 class="client-name">DataTau</h4>
+                        <p class="client-career">Startups</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-9 col-right table-cel">
+                      <div class="client-review">
+                        <h5 class="portfolio-section-title">Description</h5>
+                        <div class="portfolio-section-content">
+                          DataTau is the reference newsboard for Data Scientists and Data Engineers
+                          inspired by the popular Hacker News. The site went down for a month and we
+                          decided to recover and open source it, rewriting application code from
+                          scratch and providing hosting.
+                        </div>
+                        <h5 class="portfolio-section-title">Results</h5>
+                        <div class="portfolio-section-content">
+                          It reached Hacker News frontpage on its launch day and it is currently
+                          serving the hottest Data Science news to the World. <br>URL:
+                          https://datatau.net
+                        </div>
+                        <h5 class="portfolio-section-title">Technology</h5>
+                        <div class="portfolio-section-content">
+                          Django for backend and vanilla frontend with a lot of Jinja..
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Add Arrows -->
+              <div
+                  class="testimonials-slider-button-prev swiper-button-prev slider-button-white"></div>
+              <div class="testimonials-slider-button-next swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
