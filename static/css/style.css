@@ -1619,7 +1619,7 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
 /* 11 Testimonials
 *********************************************/
 .testimonials {
-  background: url(../img/bg/testimonials.jpg) bottom center no-repeat fixed;
+  background: url(../img/bg/portfolio.jpg) bottom center no-repeat fixed;
   background-size: cover;
 }
 .testimonials .testimonials-template .testimonials-slide {
@@ -3303,4 +3303,14 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
 
 #values {
   padding-bottom: 0;
+}
+
+/* portfolio project section: description / results / technology */
+
+.portfolio-section-title {
+  font-weight: bold;
+}
+
+.portfolio-section-content {
+  margin-bottom: 0;
 }
