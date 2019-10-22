@@ -101,7 +101,7 @@ linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(83, 52, 109, 0.75))
 }
 
 
-.gradient-text-rgba,
+.gradient-text-rgba, .kayoSuccess,
 .testimonials .testimonials-template .testimonials-slide:before,
 .contact .contact-form:before {
     background-image: -webkit-linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(83, 52, 109, 0.2) 100%);
@@ -112,4 +112,11 @@ linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(83, 52, 109, 0.75))
 
 .apps-footer .footer-top .footer-social-links a {
     background-image: linear-gradient(to right, #000 0, #53346d 100%);
+}
+
+.kayoSuccess {
+    background-image: -webkit-linear-gradient(to right, rgba(0, 0, 0, 0.9) 0%, rgba(83, 52, 109, 0.9) 100%);
+    background-image: -o-linear-gradient(to right, rgba(0, 0, 0, 0.9) 0%, rgba(83, 52, 109, 0.9) 100%);
+    background-image: -moz-linear-gradient(to right, rgba(0, 0, 0, 0.9) 0%, rgba(83, 52, 109, 0.9) 100%);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9) 0%, rgba(83, 52, 109, 0.9) 100%);
 }

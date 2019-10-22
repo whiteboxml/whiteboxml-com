@@ -320,7 +320,8 @@
                   </div>
                   <h5>Phone Number</h5>
                   <p>
-                    +34 691 101 949
+                    +34 691 101 949<br>
+                    +34 637 539 220
                   </p>
                 </div>
                 <div class="info-box">
@@ -335,8 +336,9 @@
               </div>
             </div>
             <div class="col-md-8 col-lg-pull-4 col-md-pull-4">
-              <form action="https://hinata.mrkayo.com/php/sendMessage.php" method="post"
-                    id="contact_form">
+              <form method="post" id="contact_form">
+                {% csrf_token %}
+
                 <div class="form-group">
                   <input type="text" name="full_name" class="form-control" placeholder="Full Name"
                          data-nameValidation>
