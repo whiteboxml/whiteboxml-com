@@ -8,7 +8,7 @@ from django.utils.html import strip_tags
 
 # Create your views here.
 def index(request):
-    return render(request, 'landing/index.html')
+    return render(request, 'landing/index.html', {'ga_token': settings.GA_TOKEN})
 
 
 def contact(request):
