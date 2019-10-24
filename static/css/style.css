@@ -3386,15 +3386,16 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
     display: block;
 }
 
+
 /* 23 Responsive
 *********************************************/
 /* tablet */
 @media only screen
-  and (min-width: 1024px)
-  and (max-height: 1366px)
-  and (-webkit-min-device-pixel-ratio: 1.5) {
+and (min-width: 1024px)
+and (max-height: 1366px)
+and (-webkit-min-device-pixel-ratio: 1.5) {
 
-  header.appsLand-header.bg-video .the-video {
+    header.appsLand-header.bg-video .the-video {
         top: 0;
     }
 }
