@@ -14,13 +14,14 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path, include
 from django.http import HttpResponse
+from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('app.urls')),
-    path('robots.txt', lambda x: HttpResponse("User-Agent: *\nAllow: /",
-                                              content_type="text/plain"),
+    path('robots.txt', lambda x: HttpResponse(
+        "Sitemap: https://whiteboxml.com/sitemap.xml \nUser-agent:* \nDisallow: ",
+        content_type="text/plain"),
          name="robots_file")
 ]
