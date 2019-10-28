@@ -3800,3 +3800,10 @@ and (max-height: 1366px)  {
 .portfolio-section-content {
     margin-bottom: 0;
 }
+
+/*main logo styling*/
+
+#logo-main {
+    max-width: 65%;
+    margin-bottom: 10px;
+}
