@@ -3216,8 +3216,8 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
     margin-bottom: 30px;
 }
 
-.apps-footer .footer-top .apps-short-info a {
-    display: inline-block;
+.apps-footer .footer-top .apps-short-info a img {
+    width: 50%;
 }
 
 .apps-footer .footer-top .apps-short-info h5 {
