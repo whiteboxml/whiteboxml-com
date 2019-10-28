@@ -1,7 +1,7 @@
 /*
 Main Color: #000000
-Sec Color: #53346D
-linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(83, 52, 109, 0.75))
+Sec Color: #000000
+linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75))
 */
 
 .gradient-bg,
@@ -12,17 +12,17 @@ linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(83, 52, 109, 0.75))
 .normal-post .entry-content .entry-post-info .posted-on,
 .list-post .entry-content .entry-post-info .posted-on,
 .loading {
-    background-image: -webkit-linear-gradient(to right, #000000 0%, #53346D 100%);
-    background-image: -o-linear-gradient(to right, #000000 0%, #53346D 100%);
-    background-image: -moz-linear-gradient(to right, #000000 0%, #53346D 100%);
-    background-image: linear-gradient(to right, #000000 0%, #53346D 100%);
+    background-image: -webkit-linear-gradient(to right, #000000 0%, #000000 100%);
+    background-image: -o-linear-gradient(to right, #000000 0%, #000000 100%);
+    background-image: -moz-linear-gradient(to right, #000000 0%, #000000 100%);
+    background-image: linear-gradient(to right, #000000 0%, #000000 100%);
 }
 
 .without_bg_images .app-overlay {
-    background-image: -webkit-linear-gradient(to right, #000000 0%, #53346D 100%);
-    background-image: -o-linear-gradient(to right, #000000 0%, #53346D 100%);
-    background-image: -moz-linear-gradient(to right, #000000 0%, #53346D 100%);
-    background-image: linear-gradient(to right, #000000 0%, #53346D 100%);
+    background-image: -webkit-linear-gradient(to right, #000000 0%, #000000 100%);
+    background-image: -o-linear-gradient(to right, #000000 0%, #000000 100%);
+    background-image: -moz-linear-gradient(to right, #000000 0%, #000000 100%);
+    background-image: linear-gradient(to right, #000000 0%, #000000 100%);
 }
 
 .gradient-text,
@@ -34,10 +34,10 @@ linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(83, 52, 109, 0.75))
 .appsLand-btn.appsLand-btn-gradient.btn-inverse i,
 .mini-feature .mini-feature-box .icon-box i,
 .pricing .pricing-tables .pricing-price p {
-    background-image: -webkit-linear-gradient(to right, #000000 0%, #53346D 100%);
-    background-image: -o-linear-gradient(to right, #000000 0%, #53346D 100%);
-    background-image: -moz-linear-gradient(to right, #000000 0%, #53346D 100%);
-    background-image: linear-gradient(to right, #000000 0%, #53346D 100%);
+    background-image: -webkit-linear-gradient(to right, #000000 0%, #000000 100%);
+    background-image: -o-linear-gradient(to right, #000000 0%, #000000 100%);
+    background-image: -moz-linear-gradient(to right, #000000 0%, #000000 100%);
+    background-image: linear-gradient(to right, #000000 0%, #000000 100%);
 }
 
 .main-color-text,
@@ -58,35 +58,35 @@ linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(83, 52, 109, 0.75))
 .blog .normal-post .entry-content .entry-expert .post-readMore a:hover,
 .blog .list-post .entry-content .entry-expert .post-readMore a:hover,
 .apps-footer .footer-bottom p a:hover {
-    color: #53346D;
+    color: #000000;
 }
 
 .app-overlay,
 .gradient-bg-rgba,
 .appsLand-navbar.navBar__style-2.active-navbar,
 .team__style-2 .team-member .member-info {
-    background-image: -webkit-linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(83, 52, 109, 0.5) 100%);
-    background-image: -o-linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(83, 52, 109, 0.5) 100%);
-    background-image: -moz-linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(83, 52, 109, 0.5) 100%);
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(83, 52, 109, 0.5) 100%);
+    background-image: -webkit-linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+    background-image: -o-linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+    background-image: -moz-linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
 }
 
 .section-title.style-gradient > span:before {
-    background-image: -webkit-linear-gradient(to right, #000000 0%, rgba(83, 52, 109, 0.3) 100%);
-    background-image: -o-linear-gradient(to right, #000000 0%, rgba(83, 52, 109, 0.3) 100%);
-    background-image: -moz-linear-gradient(to right, #000000 0%, rgba(83, 52, 109, 0.3) 100%);
-    background-image: linear-gradient(to right, #000000 0%, rgba(83, 52, 109, 0.3) 100%);
+    background-image: -webkit-linear-gradient(to right, #000000 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: -o-linear-gradient(to right, #000000 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: -moz-linear-gradient(to right, #000000 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: linear-gradient(to right, #000000 0%, rgba(0, 0, 0, 0.3) 100%);
 }
 
 .section-title.style-gradient > span:after {
-    background-image: -webkit-linear-gradient(to right, #53346D 0%, rgba(83, 52, 109, 0.3) 100%);
-    background-image: -o-linear-gradient(to right, #53346D 0%, rgba(83, 52, 109, 0.3) 100%);
-    background-image: -moz-linear-gradient(to right, #53346D 0%, rgba(83, 52, 109, 0.3) 100%);
-    background-image: linear-gradient(to right, #53346D 0%, rgba(83, 52, 109, 0.3) 100%);
+    background-image: -webkit-linear-gradient(to right, #000000 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: -o-linear-gradient(to right, #000000 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: -moz-linear-gradient(to right, #000000 0%, rgba(0, 0, 0, 0.3) 100%);
+    background-image: linear-gradient(to right, #000000 0%, rgba(0, 0, 0, 0.3) 100%);
 }
 
 .section-title.style-gradient > span > span {
-    border-image: 1 linear-gradient(135deg, #000000 0%, #53346D 100%);
+    border-image: 1 linear-gradient(135deg, #000000 0%, #000000 100%);
 }
 
 .main-color-bg,
@@ -104,19 +104,19 @@ linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(83, 52, 109, 0.75))
 .gradient-text-rgba, .kayoSuccess,
 .testimonials .testimonials-template .testimonials-slide:before,
 .contact .contact-form:before {
-    background-image: -webkit-linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(83, 52, 109, 0.2) 100%);
-    background-image: -o-linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(83, 52, 109, 0.2) 100%);
-    background-image: -moz-linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(83, 52, 109, 0.2) 100%);
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(83, 52, 109, 0.2) 100%);
+    background-image: -webkit-linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+    background-image: -o-linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+    background-image: -moz-linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
 }
 
 .apps-footer .footer-top .footer-social-links a {
-    background-image: linear-gradient(to right, #000 0, #53346d 100%);
+    background-image: linear-gradient(to right, #000 0, #000000 100%);
 }
 
 .kayoSuccess {
-    background-image: -webkit-linear-gradient(to right, rgba(0, 0, 0, 0.9) 0%, rgba(83, 52, 109, 0.9) 100%);
-    background-image: -o-linear-gradient(to right, rgba(0, 0, 0, 0.9) 0%, rgba(83, 52, 109, 0.9) 100%);
-    background-image: -moz-linear-gradient(to right, rgba(0, 0, 0, 0.9) 0%, rgba(83, 52, 109, 0.9) 100%);
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9) 0%, rgba(83, 52, 109, 0.9) 100%);
+    background-image: -webkit-linear-gradient(to right, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 100%);
+    background-image: -o-linear-gradient(to right, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 100%);
+    background-image: -moz-linear-gradient(to right, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 100%);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 100%);
 }
