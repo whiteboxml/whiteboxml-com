@@ -6,9 +6,20 @@ from django.template.loader import render_to_string
 from django.utils.html import strip_tags
 
 
-# Create your views here.
 def index(request):
     return render(request, 'landing/index.html', {'ga_token': settings.GA_TOKEN})
+
+
+def data_for_equity(request):
+    return render(request, 'landing/data_for_equity.html', {'ga_token': settings.GA_TOKEN})
+
+
+def portfolio(request):
+    return render(request, 'landing/portfolio.html', {'ga_token': settings.GA_TOKEN})
+
+
+def team(request):
+    return render(request, 'landing/team.html', {'ga_token': settings.GA_TOKEN})
 
 
 def contact(request):
@@ -42,3 +53,6 @@ def contact(request):
             """
 
             return JsonResponse({'Error': error_msg})
+
+    else:
+        return render(request, 'landing/contact.html', {'ga_token': settings.GA_TOKEN})

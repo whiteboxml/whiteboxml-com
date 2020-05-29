@@ -55,7 +55,7 @@ $(function () {
     /** navBar animation on scroll
      **=========================== **/
     function activeNavBar() {
-        if ($(window).scrollTop() > 0) {
+        if ($(window).scrollTop() >= 0) {
             $(".appsLand-navbar").addClass("active-navbar");
         } else {
             $(".appsLand-navbar").removeClass("active-navbar");

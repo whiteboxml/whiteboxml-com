@@ -1,392 +1,250 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends 'base.html' %}
 
 {% load static %}
 
-<head>
-
-  <title>WhiteBoxᴹᴸ: Artificial Intelligence Experts</title>
-  <link rel="canonical" href="https://whiteboxml.com"/>
-
-  {% include 'common/analytics.html' %}
-  {% include 'common/metadata.html' %}
-  {% include 'common/style.html' %}
-
-</head>
-
-<body data-spy="scroll" data-target="#bs-example-navbar-collapse-1" data-offset="5"
-      class="scrollspy-example">
-
-<!-- navbar
-========================================-->
-{% include 'common/navbar.html' %}
-
-<!-- Header
-========================================-->
-<header class="active-navbar appsLand-header bg-video" id="home">
-
-  <div class="app-overlay">
-    <div class="the-video">
-      <video src="/static/video/brain.mp4" loop muted autoplay></video>
-    </div>
-    <div class="header-content">
-      <div class="container">
-        <div class="row">
-          <div class="text-center text-center col-sm-10 col-sm-offset-1">
-            <div class="site-intro-content">
-<!--              <h1 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">WhiteBox ML</h1>-->
-              <img id="logo-main" alt="WhiteBox Machine Learning logo" src="/static/img/logo/white.svg">
-              <p class="lead wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
-                We craft AI systems for both enterprises and startups.
-              </p>
-              <ul class="list-inline list-unstyled header-links">
-                <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.75s">
-                  <a href="{% url 'landing' %}#contact"
-                     class="appsLand-btn appsLand-btn-gradient btn-inverse scrollLink">
-                    <span><i class="glyphicon glyphicon-phone-alt"></i> Contact Us</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
-
-<!-- Main Content
-========================================-->
-<main class="entry-main">
-
-  <!-- Values Section
+{% block content %}
+  <!-- Header
   ========================================-->
-  <section class="mini-feature__style-2" id="values">
-    <div class="container">
-      <div class="section-title style-gradient wow fadeInUp" data-wow-duration="1s"
-           data-wow-delay="0s">
-        <h2>
-          Values
-        </h2>
-        <span><span></span></span>
-      </div>
-      <div class="row">
-        <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
-          <div class="mini-feature-box">
-            <div class="icon-box">
-              <img alt="" src="/static/img/flat-icons/transparent.svg">
-              <img alt="" src="/static/img/flat-icons/transparent.svg">
-            </div>
-            <div class="data-box">
-              <h3>Transparency</h3>
-              <p>
-                We do not design black boxes to charge you expensive maintenance fees. We will make
-                sure
-                that you understand our solutions and get the know-how you need to maintain and
-                improve
-                yourself, with or without us.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
-          <div class="mini-feature-box">
-            <div class="icon-box">
-              <img alt="" src="/static/img/flat-icons/simple.svg">
-              <img alt="" src="/static/img/flat-icons/simple.svg">
-            </div>
-            <div class="data-box">
-              <h3>Simplicity</h3>
-              <p>
-                Simple is better. AI is full of over-engineered and obscure solutions that slow down
-                the adoption of artificial intelligence. Keeping things simple is hard and require
-                actual knowledge and previous thinking, research and planning.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-          <div class="mini-feature-box">
-            <div class="icon-box">
-              <img alt="" src="/static/img/flat-icons/quality.svg">
-              <img alt="" src="/static/img/flat-icons/quality.svg">
-            </div>
-            <div class="data-box">
-              <h3>Quality</h3>
-              <p>
-                We will never compromise quality. A single carefully made solution which
-                successfully
-                add value is better than a thousand botched, half-made systems.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <header class="active-navbar appsLand-header bg-video" id="home">
 
-  <!-- Approach Section
-  ========================================-->
-  <section class="features" id="approach">
-    <div class="container">
-      <div class="section-title style-gradient wow fadeInUp" data-wow-duration="1s"
-           data-wow-delay="0s">
-        <h2>
-          Approach
-        </h2>
-        <span><span></span></span>
-      </div>
-      <div class="appInfo-container">
-        <div class="row appInfo-row">
-          <div class="col-md-6 col-md-offset-1 col-sm-7">
-            <div class="appInfo-data wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
-              <h2>1. AI planning and strategy</h2>
-              <p>
-                Get the right assessment before jumping into the AI race. Avoid common mistakes
-                which will cause your
-                AI strategy to derail and underdeliver. Let us help you to make things right from
-                the beginning, from
-                Data Engineering to Machine Learning deployment.
-              </p>
-              {#              <a href="index-demo1-video_bg.html#" class="appsLand-btn appsLand-btn-gradient"><span>Read More</span></a>#}
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-5 hidden-xs">
-            <div class="img-box wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-              <img alt="" src="/static/img/flat-icons/planning.svg" class="img-responsive">
-            </div>
-          </div>
-        </div>
-        <div class="row appInfo-row">
-          <div class="col-md-4 col-md-offset-1 col-sm-5 hidden-xs">
-            <div class="img-box wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
-              <img alt="Data Engineering" src="/static/img/flat-icons/data_engineering.svg"
-                   class="img-responsive">
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-7">
-            <div class="appInfo-data wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
-              <h2>2. Data Engineering</h2>
-              <p>
-                Lots of Data? We are used to work with Big Data workloads using frameworks like
-                Hadoop or Spark, and
-                successfully built and deployed AI at scale.
-              </p>
-              {#              <a href="index-demo1-video_bg.html#" class="appsLand-btn appsLand-btn-gradient"><span>Read More</span></a>#}
-            </div>
-          </div>
-        </div>
-        <div class="row appInfo-row">
-          <div class="col-md-6 col-md-offset-1 col-sm-7">
-            <div class="appInfo-data wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
-              <h2>3. AI model designing</h2>
-              <p>
-                We are excellent modelers with business experience in many sectors and real world
-                use cases using a
-                broad range of technologies, from classic Machine Learning to Deep Learning. And the
-                best of all, we
-                have principles crystal clear independently of technology.
-              </p>
-              {#              <a href="index-demo1-video_bg.html#" class="appsLand-btn appsLand-btn-gradient"><span>Read More</span></a>#}
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-5 hidden-xs">
-            <div class="img-box wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-              <img alt="Machine Learning" src="/static/img/flat-icons/machine_learning.svg"
-                   class="img-responsive">
-            </div>
-          </div>
-        </div>
-        <div class="row appInfo-row">
-          <div class="col-md-4 col-md-offset-1 col-sm-5 hidden-xs">
-            <div class="img-box wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
-              <img alt="Deployment" src="/static/img/flat-icons/deployment.svg"
-                   class="img-responsive">
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-7">
-            <div class="appInfo-data wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
-              <h2>4. AI deployment</h2>
-              <p>
-                Most companies fail while deploying their models from prototype to production. Did
-                your company
-                spend a fortune hiring a horde of PhDs and only got a bunch of serialized R models
-                with no actual
-                value in return? We can help you.
-              </p>
-              {#              <a href="index-demo1-video_bg.html#" class="appsLand-btn appsLand-btn-gradient"><span>Read More</span></a>#}
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Portfolio Section
-  ========================================-->
-  {% include './portfolio.html' %}
-
-  <!-- Team Section
-========================================-->
-  <section class="team__style-2" id="team">
-    <div class="container">
-      <div class="section-title style-gradient wow fadeInUp" data-wow-duration="1s"
-           data-wow-delay="0s">
-        <h2>
-          Team
-        </h2>
-        <span><span></span></span>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-sm-6">
-          <div class="team-member wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
-            <div class="team-member-content">
-              <div class="member-pic">
-                {#                                TODO: optimize img for web#}
-                <img alt="Pedro Muñoz" src="/static/img/team/pedro_gray.jpg" class="img-responsive">
-              </div>
-              <div class="member-info">
-                <div class="info-content">
-                  <div class="name-career">
-                    <h4>Pedro Muñoz</h4>
-                    <span>🔬 Data Scientist | 🏢 Big Data Architect | 🤖 Machine Learning Engineer</span>
-                  </div>
-                  <ul class="list-inline list-unstyled member-social">
-                    <li>
-                      <a href="https://twitter.com/pedro_munoz_" target="_blank"><i
-                          class="fa fa-twitter"></i></a>
-                    </li>
-                    <li>
-                      <a href="https://www.linkedin.com/in/pedro-munoz-botas" target="_blank">
-                        <i class="fa fa-linkedin"></i></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-sm-6">
-          <div class="team-member wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-            <div class="team-member-content">
-              <div class="member-pic">
-
-                <img alt="David Cañones" src="/static/img/team/david_gray.jpg" class="img-responsive">
-              </div>
-              <div class="member-info">
-                <div class="info-content">
-                  <div class="name-career">
-                    <h4>David Adrián Cañones</h4>
-                    <span>🔬 Data Scientist | 🤖 Machine Learning Engineer | 💹 MBA</span>
-                  </div>
-                  <ul class="list-inline list-unstyled member-social">
-                    <li>
-                      <a href="https://twitter.com/dcanones" target="_blank"><i
-                          class="fa fa-twitter"></i></a>
-                    </li>
-                    <li>
-                      <a href="https://www.linkedin.com/in/davidadrian" target="_blank">
-                        <i class="fa fa-linkedin"></i></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section
-  ========================================-->
-  <section class="contact contact__style-2 section-bg-img" id="contact">
     <div class="app-overlay">
+      <div class="the-video">
+        <video src="/static/video/brain.mp4" loop muted autoplay></video>
+      </div>
+      <div class="header-content">
+        <div class="container">
+          <div class="row">
+            <div class="text-center col-sm-10 col-sm-offset-1">
+              <div class="site-intro-content">
+                <img id="logo-main" alt="WhiteBox Machine Learning logo" src="/static/img/logo/white.svg">
+                <p class="lead wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+                  We craft AI systems for both enterprises and startups.
+                </p>
+                <ul class="list-inline list-unstyled header-links">
+                  <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.75s">
+                    <a href="{% url 'contact' %}"
+                       class="appsLand-btn appsLand-btn-gradient btn-inverse scrollLink">
+                      <span><i class="glyphicon glyphicon-phone-alt"></i> Contact Us</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content
+  ========================================-->
+  <main class="entry-main">
+
+    <!-- Values Section
+    ========================================-->
+    <section class="mini-feature__style-2" id="values">
       <div class="container">
-        <div class="section-title style-gradient white-color wow fadeInUp" data-wow-duration="1s"
+        <div class="section-title style-gradient wow fadeInUp" data-wow-duration="1s"
              data-wow-delay="0s">
           <h2>
-            Contact Us
+            Values
           </h2>
           <span><span></span></span>
         </div>
-        <div class="contact-form wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
-          <div class="row">
-            <div class="col-md-4 col-lg-push-8 col-md-push-8">
-              <div class="contact-info">
-                <div class="info-box">
-                  <div class="icon-box">
-                    <i class="fa fa-phone white-color"></i>
-                  </div>
-                  <h5>Phone Number</h5>
-                  <p>
-                    +34 691 101 949<br>
-                    +34 637 539 220
-                  </p>
-                </div>
-                <div class="info-box">
-                  <div class="icon-box">
-                    <i class="fa fa-envelope-o white-color"></i>
-                  </div>
-                  <h5>Email Address</h5>
-                  <p>
-                    info@whiteboxml.com
-                  </p>
-                </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
+            <div class="mini-feature-box">
+              <div class="icon-box">
+                <img alt="" src="/static/img/flat-icons/transparent.svg">
+                <img alt="" src="/static/img/flat-icons/transparent.svg">
+              </div>
+              <div class="data-box">
+                <h3>Transparency</h3>
+                <p>
+                  We do not design black boxes to charge you expensive maintenance fees. We will make
+                  sure
+                  that you understand our solutions and get the know-how you need to maintain and
+                  improve
+                  yourself, with or without us.
+                </p>
               </div>
             </div>
-            <div class="col-md-8 col-lg-pull-4 col-md-pull-4">
-              <form method="post" id="contact_form">
-                {% csrf_token %}
-
-                <div class="form-group">
-                  <input type="text" name="full_name" class="form-control" placeholder="Full Name"
-                         data-nameValidation>
-                </div>
-                <div class="form-group">
-                  <input type="text" name="email" class="form-control" placeholder="Email"
-                         data-emailValidation>
-                </div>
-                <div class="form-group">
-                  <textarea name="message" class="form-control" placeholder="Your Message"
-                            data-messageValidation></textarea>
-                </div>
-                <div class="form-group">
-                  <button type="submit" name="submit_contact_form"
-                          class="appsLand-btn appsLand-btn-gradient btn-inverse btn"><span><i
-                      class="fa fa-send"></i> Send Message</span></button>
-                </div>
-              </form>
+          </div>
+          <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+            <div class="mini-feature-box">
+              <div class="icon-box">
+                <img alt="" src="/static/img/flat-icons/simple.svg">
+                <img alt="" src="/static/img/flat-icons/simple.svg">
+              </div>
+              <div class="data-box">
+                <h3>Simplicity</h3>
+                <p>
+                  Simple is better. AI is full of over-engineered and obscure solutions that slow down
+                  the adoption of artificial intelligence. Keeping things simple is hard and require
+                  actual knowledge and previous thinking, research and planning.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+            <div class="mini-feature-box">
+              <div class="icon-box">
+                <img alt="" src="/static/img/flat-icons/quality.svg">
+                <img alt="" src="/static/img/flat-icons/quality.svg">
+              </div>
+              <div class="data-box">
+                <h3>Quality</h3>
+                <p>
+                  We will never compromise quality. A single carefully made solution which
+                  successfully
+                  add value is better than a thousand botched, half-made systems.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-</main>
+    <!-- Approach Section
+    ========================================-->
+    <section class="features" id="approach">
+      <div class="container">
+        <div class="section-title style-gradient wow fadeInUp" data-wow-duration="1s"
+             data-wow-delay="0s">
+          <h2>
+            Approach
+          </h2>
+          <span><span></span></span>
+        </div>
+        <div class="appInfo-container">
+          <div class="row appInfo-row">
+            <div class="col-md-6 col-md-offset-1 col-sm-7">
+              <div class="appInfo-data wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+                <h2>1. AI planning and strategy</h2>
+                <p>
+                  Get the right assessment before jumping into the AI race. Avoid common mistakes
+                  which will cause your
+                  AI strategy to derail and underdeliver. Let us help you to make things right from
+                  the beginning, from
+                  Data Engineering to Machine Learning deployment.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-5 hidden-xs">
+              <div class="img-box wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img alt="" src="/static/img/flat-icons/planning.svg" class="img-responsive">
+              </div>
+            </div>
+          </div>
+          <div class="row appInfo-row">
+            <div class="col-md-4 col-md-offset-1 col-sm-5 hidden-xs">
+              <div class="img-box wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
+                <img alt="Data Engineering" src="/static/img/flat-icons/data_engineering.svg"
+                     class="img-responsive">
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-7">
+              <div class="appInfo-data wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+                <h2>2. Data Engineering</h2>
+                <p>
+                  Lots of Data? We are used to work with Big Data workloads using frameworks like
+                  Hadoop or Spark, and
+                  successfully built and deployed AI at scale.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row appInfo-row">
+            <div class="col-md-6 col-md-offset-1 col-sm-7">
+              <div class="appInfo-data wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+                <h2>3. AI model designing</h2>
+                <p>
+                  We are excellent modelers with business experience in many sectors and real world
+                  use cases using a
+                  broad range of technologies, from classic Machine Learning to Deep Learning. And the
+                  best of all, we
+                  have principles crystal clear independently of technology.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-5 hidden-xs">
+              <div class="img-box wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img alt="Machine Learning" src="/static/img/flat-icons/machine_learning.svg"
+                     class="img-responsive">
+              </div>
+            </div>
+          </div>
+          <div class="row appInfo-row">
+            <div class="col-md-4 col-md-offset-1 col-sm-5 hidden-xs">
+              <div class="img-box wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
+                <img alt="Deployment" src="/static/img/flat-icons/deployment.svg"
+                     class="img-responsive">
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-7">
+              <div class="appInfo-data wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+                <h2>4. AI deployment</h2>
+                <p>
+                  Most companies fail while deploying their models from prototype to production. Did
+                  your company
+                  spend a fortune hiring a horde of PhDs and only got a bunch of serialized R models
+                  with no actual
+                  value in return? We can help you.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!-- Scroll To Top
-========================================-->
-<div class="scrollToTop appsLand-btn appsLand-btn-gradient"><span><i
-    class="fa fa-angle-up"></i></span></div>
+    <!-- Data for Equity
+      ========================================-->
+    <section class="mini-feature__style-2" id="data-for-equity">
+      <div class="container">
+        <div class="section-title style-gradient wow fadeInUp" data-wow-duration="1s"
+             data-wow-delay="0s">
+          <h2>
+            Data for Equity
+          </h2>
+          <span><span></span></span>
+        </div>
+        <div class="appInfo-container">
+          <div class="row appInfo-row">
+            <div class="col-md-10 col-md-offset-1">
+              <div class="appInfo-data wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+                <p>
+                  We offer Data services as equity investment in ideas and companies who need experienced Data
+                  Scientists and Engineers to achieve their goals. It means we can work for you for a % of your company.
+                  <br>
+                  At this moment and depending on your company needs, we offer investment in Seed stage with tickets of:
+                </p>
+                <ul>
+                  <li>25000€</li>
+                  <li>50000€</li>
+                </ul>
+                <p>
+                  Our work consist in developing Data solutions, advising on AI adoption and more. We also work for top
+                  companies worldwide as independent consultants.
+                  <br>
+                  In case you are interested:
+                </p>
+                <div class="row">
+                  <div class="text-center mt-25">
+                    <a href="{% url 'data_for_equity' %}"
+                       class="appsLand-btn appsLand-btn-gradient btn-inverse scrollLink">
+                      <span>Apply Here</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!-- Loading
-========================================-->
-<div class="loading">
-  <div class="spinner">
-    <div class="double-bounce1"></div>
-    <div class="double-bounce2"></div>
-  </div>
-</div>
+  </main>
 
-<!-- Footer
-========================================-->
-{% include 'common/footer.html' %}
-
-{% include 'common/scripts.html' %}
-
-</body>
-
-</html>
+{% endblock %}

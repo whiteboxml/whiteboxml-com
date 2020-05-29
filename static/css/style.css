@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     font-weight: 300;
-    font-size: 13px;
+    font-size: 14px;
     letter-spacing: 0.4px;
     line-height: 24px;
 }
@@ -1361,7 +1361,7 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
 }
 
 .entry-main > section, .entry-main > div {
-    padding: 130px 0;
+    padding: 50px 0;
     overflow: hidden;
 }
 
@@ -1670,7 +1670,6 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
 .features .appInfo-data p {
     color: #777;
     margin-bottom: 30px;
-    font-size: 19px;
 }
 
 /* 8.2 Feature Style2 */
@@ -3765,6 +3764,10 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
         border-width: 4px;
         left: -8px;
     }
+
+    .mt-100 {
+        margin-top: 60px !important;
+    }
 }
 
 
@@ -3778,12 +3781,6 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
 
 .apps-footer .footer-bottom p {
     color: white;
-}
-
-/* fix for bottom padding, values section */
-
-#values {
-    padding-bottom: 0;
 }
 
 /* portfolio project section: description / results / technology */
@@ -3805,4 +3802,16 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
 
 #logo-menu-mobile {
     width: 25%;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.black-text {
+    color: black;
 }

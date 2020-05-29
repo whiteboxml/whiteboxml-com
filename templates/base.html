@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% load static %}
+
+<head>
+
+  <title>WhiteBoxᴹᴸ: Artificial Intelligence Experts</title>
+  <link rel="canonical" href="https://whiteboxml.com"/>
+
+  {% include 'common/analytics.html' %}
+  {% include 'common/metadata.html' %}
+  {% include 'common/style.html' %}
+
+</head>
+
+<body data-spy="scroll" data-target="#bs-example-navbar-collapse-1" data-offset="5"
+      class="scrollspy-example">
+
+<!-- navbar
+========================================-->
+{% include 'common/navbar.html' %}
+
+{% block content %}
+{% endblock %}
+
+<!-- Scroll To Top
+========================================-->
+<div class="scrollToTop appsLand-btn appsLand-btn-gradient"><span><i
+    class="fa fa-angle-up"></i></span></div>
+
+<!-- Loading
+========================================-->
+<div class="loading">
+  <div class="spinner">
+    <div class="double-bounce1"></div>
+    <div class="double-bounce2"></div>
+  </div>
+</div>
+
+<!-- Footer
+========================================-->
+{% include 'common/footer.html' %}
+
+{% include 'common/scripts.html' %}
+
+</body>
+
+</html>
