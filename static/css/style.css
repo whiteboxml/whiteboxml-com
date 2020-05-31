@@ -3779,6 +3779,10 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
     color: white;
 }
 
+.fa-github:before {
+    color: white;
+}
+
 .apps-footer .footer-bottom p {
     color: white;
 }
