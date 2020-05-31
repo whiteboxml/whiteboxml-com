@@ -22,23 +22,24 @@
           </div>
           <div class="contact-form wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
             <div class="row">
-              <div class="col-md-4 col-lg-push-8 col-md-push-8">
-                <div class="contact-info">
-                  <div class="info-box">
-                    <div class="icon-box">
-                      <i class="fa fa-envelope-o white-color"></i>
+              <form method="post" id="contact_form">
+                {% csrf_token %}
+
+                <div class="col-md-4 col-lg-push-8 col-md-push-8">
+                  <div class="contact-info">
+                    <div class="info-box">
+                      <div class="icon-box">
+                        <i class="fa fa-envelope-o white-color"></i>
+                      </div>
+                      <h5>Email Address</h5>
+                      <p>
+                        info@whiteboxml.com
+                      </p>
                     </div>
-                    <h5>Email Address</h5>
-                    <p>
-                      info@whiteboxml.com
-                    </p>
+                    <div class="g-recaptcha" data-sitekey="your_site_key"></div>
                   </div>
                 </div>
-              </div>
-              <div class="col-md-8 col-lg-pull-4 col-md-pull-4">
-                <form method="post" id="contact_form">
-                  {% csrf_token %}
-
+                <div class="col-md-8 col-lg-pull-4 col-md-pull-4">
                   <div class="form-group">
                     <input type="text" name="full_name" class="form-control" placeholder="Full Name"
                            data-nameValidation>
@@ -56,8 +57,8 @@
                             class="appsLand-btn appsLand-btn-gradient btn-inverse btn"><span><i
                         class="fa fa-send"></i> Send Message</span></button>
                   </div>
-                </form>
-              </div>
+                </div>
+              </form>
             </div>
           </div>
         </div>
