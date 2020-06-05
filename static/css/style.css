@@ -3422,6 +3422,14 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
     }
 }
 
+
+#recaptcha {
+    transform: scale(0.825);
+    -webkit-transform: scale(0.825);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+}
+
 @media (max-width: 991px) {
 
     header.appsLand-header.bg-video .the-video video {
@@ -3767,6 +3775,13 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
 
     .mt-100 {
         margin-top: 60px !important;
+    }
+
+    #recaptcha {
+        transform: scale(0.70);
+        -webkit-transform: scale(0.70);
+        transform-origin: 0 0;
+        -webkit-transform-origin: 0 0;
     }
 }
 

@@ -1,3 +1,4 @@
+import requests
 from django.conf import settings
 from django.core.mail import send_mail
 from django.http import JsonResponse
@@ -31,18 +32,32 @@ def contact(request):
         plain_message = strip_tags(msg_html)
 
         try:
-            send_mail(
-                subject='WhiteboxML Contact Form',
-                message=plain_message,
-                html_message=msg_html,
-                from_email=settings.DEFAULT_FROM_EMAIL,
-                recipient_list=[settings.DEFAULT_FROM_EMAIL],
-                fail_silently=False
-            )
+            ''' Begin reCAPTCHA validation '''
+            recaptcha_response = request.POST.get('g-recaptcha-response')
+            data = {
+                'secret': settings.GOOGLE_RECAPTCHA_SECRET_KEY,
+                'response': recaptcha_response
+            }
+            r = requests.post('https://www.google.com/recaptcha/api/siteverify', data=data)
+            result = r.json()
+            ''' End reCAPTCHA validation '''
 
-            print(f'message from {request.POST["email"]} successfully sent')
+            if result['success']:
+                send_mail(
+                    subject='WhiteboxML Contact Form',
+                    message=plain_message,
+                    html_message=msg_html,
+                    from_email=settings.DEFAULT_FROM_EMAIL,
+                    recipient_list=[settings.DEFAULT_FROM_EMAIL],
+                    fail_silently=False
+                )
 
-            return JsonResponse({})
+                print(f'message from {request.POST["email"]} successfully sent')
+
+                return JsonResponse({})
+
+            else:
+                raise Exception('not validated recaptcha')
 
         except Exception as ex:
             print(ex)
