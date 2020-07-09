@@ -2,7 +2,7 @@
 
 $(function () {
     "use strict";
-    
+
     // Variables
     var counter = false,
         screenShotSlider,
@@ -24,6 +24,7 @@ $(function () {
             }
         }
     }
+
     startCounter();
     /** => End Counter */
 
@@ -31,7 +32,7 @@ $(function () {
      **====================== **/
     $(".appsLand-links > li > a, .scrollLink").on('click', function (e) {
         var className = $(this).attr("href");
-        console.log (className);
+        console.log(className);
         if (className.charAt(0) === "#") {
             e.preventDefault();
             var hash = this.hash,
@@ -50,6 +51,7 @@ $(function () {
             scrollTop: 0
         }, 500);
     });
+
     /** => Scroll To Top */
 
     /** navBar animation on scroll
@@ -61,6 +63,7 @@ $(function () {
             $(".appsLand-navbar").removeClass("active-navbar");
         }
     }
+
     activeNavBar();
     /** => End navBar animation on scroll */
 
@@ -169,6 +172,7 @@ $(function () {
     $(".menu-toggle").on("click", function () {
         $('.appsLand-navbar').toggleClass("mobile-menu-active");
     });
+
     // close the mobile menu
 
     /** => End mobile menu */

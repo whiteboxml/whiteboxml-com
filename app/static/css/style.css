@@ -1,64 +1,4 @@
-/*********************************************************************************************
-Project:      Hinata | App Landing Page
-Version:      1.0
-Last change:  25/10/2017
-
-[ CSS Structure ]
-
-1. Color Codes
-2. General Style
-3. NavBar
-4. Header
-    4.1 Home Page Header
-    4.2 Sub Pages Header
-5. Main Content
-6. Mini Feature
-    6.1 Mini Feature Style1
-    6.2 Mini Feature Style2
-7 Screen Shots
-    7.1 Screen Shots Style1
-    7.2 Screen Shots Style2
-    7.3 mobile mockup
-    7.4 slider arrows
-8. Features
-    8.1 Feature Style1
-    8.2 Feature Style2
-9 Download
-10 Pricing
-11 Testimonials
-12 Team
-    12.1 Team Style2
-    12.1 Team Style1
-13 Video
-    13.1 Video Section
-    13.2 Video PopUp
-14 FAQ
-15 Statistics
-16 Blog
-    16.1 Normal Post
-    16.2 List Post
-    16.3 Single Post
-    16.4 Aside
-17 Contact
-    17.1 Contact Style1
-    17.2 Contact Style2
-18 Clients Logo
-19 Subscribe
-20 Footer
-21 Loading
-22 SUB PAGES ( 404 & Coming Soon )
-23 Responsive
-
-/*------------------------------------------------------------------------------------------*/
-/* 1. Color Codes */
-/*-----------------
-
-$mainColor: #3483ff;
-$secColor: #cd0fd8;
-
-------------------------------------------------------------------*/
-/* 2. General Style
-*********************************************/
+/********************************************************************************************* Project:      Hinata | App Landing Page Version:      1.0 Last change:  25/10/2017 [ CSS Structure ] 1. Color Codes 2. General Style 3. NavBar 4. Header     4.1 Home Page Header     4.2 Sub Pages Header 5. Main Content 6. Mini Feature     6.1 Mini Feature Style1     6.2 Mini Feature Style2 7 Screen Shots     7.1 Screen Shots Style1     7.2 Screen Shots Style2     7.3 mobile mockup     7.4 slider arrows 8. Features     8.1 Feature Style1     8.2 Feature Style2 9 Download 10 Pricing 11 Testimonials 12 Team     12.1 Team Style2     12.1 Team Style1 13 Video     13.1 Video Section     13.2 Video PopUp 14 FAQ 15 Statistics 16 Blog     16.1 Normal Post     16.2 List Post     16.3 Single Post     16.4 Aside 17 Contact     17.1 Contact Style1     17.2 Contact Style2 18 Clients Logo 19 Subscribe 20 Footer 21 Loading 22 SUB PAGES ( 404 & Coming Soon ) 23 Responsive /*------------------------------------------------------------------------------------------*/ /* 1. Color Codes */ /*----------------- $mainColor: #3483ff; $secColor: #cd0fd8; ------------------------------------------------------------------*/ /* 2. General Style *********************************************/
 body {
     font-family: 'Open Sans', sans-serif;
     position: relative;
@@ -158,19 +98,12 @@ p {
 }
 
 .noselect, .appsLand-btn, .mini-feature__style-2 .mini-feature-box .icon-box img:nth-child(2) {
-    -webkit-touch-callout: none;
-    /* iOS Safari */
-    -webkit-user-select: none;
-    /* Safari */
-    -khtml-user-select: none;
-    /* Konqueror HTML */
-    -moz-user-select: none;
-    /* Firefox */
-    -ms-user-select: none;
-    /* Internet Explorer/Edge */
-    user-select: none;
-    /* Non-prefixed version, currently
-                 supported by Chrome and Opera */
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently                  supported by Chrome and Opera */
 }
 
 .white-color {
@@ -256,17 +189,14 @@ p {
     font-weight: 300;
 }
 
-.section-title.title__style-2 > span,
-.section-title.title__style-2 h2 > span {
+.section-title.title__style-2 > span, .section-title.title__style-2 h2 > span {
     display: block;
     font-size: 0;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.section-title.title__style-2 > span:before, .section-title.title__style-2 > span:after,
-.section-title.title__style-2 h2 > span:before,
-.section-title.title__style-2 h2 > span:after {
+.section-title.title__style-2 > span:before, .section-title.title__style-2 > span:after, .section-title.title__style-2 h2 > span:before, .section-title.title__style-2 h2 > span:after {
     content: '';
     display: inline-block;
     border-bottom: 2px solid;
@@ -274,8 +204,7 @@ p {
     vertical-align: middle;
 }
 
-.section-title.title__style-2 > span > span,
-.section-title.title__style-2 h2 > span > span {
+.section-title.title__style-2 > span > span, .section-title.title__style-2 h2 > span > span {
     display: inline-block;
     width: 15px;
     height: 15px;
@@ -513,8 +442,7 @@ p {
     transform: rotate(0deg);
 }
 
-.without_bg_images header.appsLand-header,
-.without_bg_images main > section {
+.without_bg_images header.appsLand-header, .without_bg_images main > section {
     background-image: none;
 }
 
@@ -628,66 +556,45 @@ p {
 }
 
 .option-template-menu ul li:nth-child(2) a {
-    background: #70e1f5;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(-45deg, #ff5f6d 0%, #ffc371 100%);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(-45deg, #ff5f6d 0%, #ffc371 100%);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #70e1f5; /* fallback for old browsers */
+    background: -webkit-linear-gradient(-45deg, #ff5f6d 0%, #ffc371 100%); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(-45deg, #ff5f6d 0%, #ffc371 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .option-template-menu ul li:nth-child(3) a {
-    background: #000000;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4B1248 0%, #F0C27B 100%);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4B1248 0%, #F0C27B 100%);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4B1248 0%, #F0C27B 100%); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4B1248 0%, #F0C27B 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .option-template-menu ul li:nth-child(4) a {
-    background: #ADD100;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F9D423 0%, #FF4E50 100%);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F9D423 0%, #FF4E50 100%);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ADD100; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F9D423 0%, #FF4E50 100%); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F9D423 0%, #FF4E50 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .option-template-menu ul li:nth-child(5) a {
-    background: #FF4E50;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #DC2424 0%, #4A569D 100%);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #DC2424 0%, #4A569D 100%);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #FF4E50; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DC2424 0%, #4A569D 100%); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DC2424 0%, #4A569D 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .option-template-menu ul li:nth-child(6) a {
-    background: #F0C27B;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #000000 0%, #53346D 100%);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #000000 0%, #53346D 100%);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #F0C27B; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #000000 0%, #53346D 100%); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000000 0%, #53346D 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .option-template-menu ul li:nth-child(7) a {
-    background: #AAFFA9;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #108dc7 0%, #ef8e38 100%);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #108dc7 0%, #ef8e38 100%);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #AAFFA9; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #108dc7 0%, #ef8e38 100%); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #108dc7 0%, #ef8e38 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .option-template-menu ul li:nth-child(8) a {
-    background: #9D50BB;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #5f2c82 0%, #49a09d 100%);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #5f2c82 0%, #49a09d 100%);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #9D50BB; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5f2c82 0%, #49a09d 100%); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5f2c82 0%, #49a09d 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .demos-section .container {
@@ -820,8 +727,7 @@ p {
     color: #2490f9;
 }
 
-/* 3. NavBar
-*********************************************/
+/* 3. NavBar *********************************************/
 .appsLand-navbar {
     background: rgba(255, 255, 255, 0.05);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -1067,8 +973,7 @@ p {
     background: #f9f9f9;
 }
 
-.appsLand-navbar .mobile-dropdown-menu .collapse.in,
-.appsLand-navbar .mobile-dropdown-menu .collapsing {
+.appsLand-navbar .mobile-dropdown-menu .collapse.in, .appsLand-navbar .mobile-dropdown-menu .collapsing {
     background: #f9f9f9;
 }
 
@@ -1123,9 +1028,7 @@ p {
     background: #FFF;
 }
 
-/* 4. Header
-*********************************************/
-/* 4.1 Home Page Header */
+/* 4. Header *********************************************/ /* 4.1 Home Page Header */
 header.appsLand-header {
     background-size: cover;
     color: #FFFFFF;
@@ -1352,8 +1255,7 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
     color: #BBB;
 }
 
-/* 5. Main Content
-*********************************************/
+/* 5. Main Content *********************************************/
 .entry-main {
     position: relative;
     z-index: 2;
@@ -1385,9 +1287,7 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
     padding: 90px 0;
 }
 
-/* 6. Mini Feature
-*********************************************/
-/* 6.1 Mini Feature Style1 */
+/* 6. Mini Feature *********************************************/ /* 6.1 Mini Feature Style1 */
 .mini-feature .container {
     margin-bottom: -30px;
 }
@@ -1571,9 +1471,7 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
     opacity: 0.4;
 }
 
-/* 7 Screen Shots
-*********************************************/
-/* 7.1 Screen Shots Style1 */
+/* 7 Screen Shots *********************************************/ /* 7.1 Screen Shots Style1 */
 .app-screen {
     position: relative;
     padding-top: 64px;
@@ -1646,9 +1544,7 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
     margin: 0;
 }
 
-/* 8. Features
-*********************************************/
-/* 8.1 Feature Style1 */
+/* 8. Features *********************************************/ /* 8.1 Feature Style1 */
 .features .appInfo-row {
     margin-bottom: 60px;
 }
@@ -1733,8 +1629,7 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
     font-size: 19px;
 }
 
-/* 9 Download
-*********************************************/
+/* 9 Download *********************************************/
 .download {
     background: url(../img/bg/download.jpg) center center no-repeat fixed;
     background-size: cover;
@@ -1744,8 +1639,7 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
     text-align: center;
 }
 
-/* 10 Pricing
-*********************************************/
+/* 10 Pricing *********************************************/
 .pricing .container {
     margin-bottom: -30px;
 }
@@ -1829,8 +1723,7 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
     padding: 25px;
 }
 
-/* 11 Testimonials
-*********************************************/
+/* 11 Testimonials *********************************************/
 .testimonials {
     background: url(../img/bg/portfolio.jpg) bottom center no-repeat fixed;
     background-size: cover;
@@ -1842,18 +1735,7 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
     width: 100%;
 }
 
-/*.testimonials .testimonials-template .testimonials-slide:before {*/
-/*  content: "\f10d";*/
-/*  position: absolute;*/
-/*  right: 50px;*/
-/*  bottom: 30px;*/
-/*  display: inline-block;*/
-/*  font: normal normal normal 14px/1 FontAwesome;*/
-/*  font-size: 130px;*/
-/*  text-rendering: auto;*/
-/*  -webkit-font-smoothing: antialiased;*/
-/*  -moz-osx-font-smoothing: grayscale;*/
-/*}*/
+/*.testimonials .testimonials-template .testimonials-slide:before {*/ /*  content: "\f10d";*/ /*  position: absolute;*/ /*  right: 50px;*/ /*  bottom: 30px;*/ /*  display: inline-block;*/ /*  font: normal normal normal 14px/1 FontAwesome;*/ /*  font-size: 130px;*/ /*  text-rendering: auto;*/ /*  -webkit-font-smoothing: antialiased;*/ /*  -moz-osx-font-smoothing: grayscale;*/ /*}*/
 .testimonials .testimonials-template .testimonials-slide .row {
     margin-right: -45px;
     margin-left: -45px;
@@ -1907,9 +1789,7 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
     margin: 0;
 }
 
-/* 12 Team
-*********************************************/
-/* 12.1 Team Style2 */
+/* 12 Team *********************************************/ /* 12.1 Team Style2 */
 .team .container {
     margin-bottom: -30px;
 }
@@ -2213,9 +2093,7 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
     color: #FFF;
 }
 
-/* 13 Video
-*********************************************/
-/* 13.1 Video Section */
+/* 13 Video *********************************************/ /* 13.1 Video Section */
 .video {
     background: url(../img/bg/video.jpg) center center no-repeat fixed;
     background-size: cover;
@@ -2236,8 +2114,7 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
     color: #fff;
 }
 
-/* 14 FAQ
-*********************************************/
+/* 14 FAQ *********************************************/
 .faq .questions-container .panel {
     border: 0;
     margin-bottom: 15px;
@@ -2312,8 +2189,7 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
     color: #777;
 }
 
-/* 15 Statistics
-*********************************************/
+/* 15 Statistics *********************************************/
 .statistics {
     background: url(../img/bg/statistics.jpg) bottom center no-repeat fixed;
     background-size: cover;
@@ -2362,8 +2238,7 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
     text-transform: uppercase;
 }
 
-/* 16 Blog
-*********************************************/
+/* 16 Blog *********************************************/
 .blog .container {
     margin-bottom: -30px;
 }
@@ -2964,9 +2839,7 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
     text-decoration: none;
 }
 
-/* 17 Contact
-*********************************************/
-/* 17.1 Contact Style1 */
+/* 17 Contact *********************************************/ /* 17.1 Contact Style1 */
 .contact {
     background: url(../img/bg/contact.jpg) center center no-repeat fixed;
     background-size: cover;
@@ -3121,8 +2994,7 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
     color: #EEE;
 }
 
-/* 18 Clients Logo
-*********************************************/
+/* 18 Clients Logo *********************************************/
 .entry-main > div.clients-logo {
     padding: 0;
     -webkit-box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.25);
@@ -3165,8 +3037,7 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
     width: auto;
 }
 
-/* 19 Subscribe
-*********************************************/
+/* 19 Subscribe *********************************************/
 .custom-input-group {
     position: relative;
 }
@@ -3196,14 +3067,12 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
     margin: 10px;
 }
 
-/* 20 Footer
-*********************************************/
+/* 20 Footer *********************************************/
 .apps-footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    text-align: center;
-    /*background: #282d30;*/
+    text-align: center; /*background: #282d30;*/
     color: #9ba0a2;
 }
 
@@ -3280,8 +3149,7 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
     transition: all 0.25s ease-in-out 0s;
 }
 
-/* 21 Loading
-*********************************************/
+/* 21 Loading *********************************************/
 .loading {
     position: fixed;
     top: 0;
@@ -3341,8 +3209,7 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
     }
 }
 
-/* 22 SUB PAGES ( 404 & Coming Soon )
-*********************************************/
+/* 22 SUB PAGES ( 404 & Coming Soon ) *********************************************/
 .inner-header._sub-pages .app-overlay {
     padding-top: 172px;
     min-height: 100vh;
@@ -3385,10 +3252,7 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
     display: block;
 }
 
-
-/* 23 Responsive
-*********************************************/
-
+/* 23 Responsive *********************************************/
 @media (min-width: 768px) {
     /* popUp Video */
     .apps-video .modal-dialog {
@@ -3398,7 +3262,6 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
     header.appsLand-header.bg-video .the-video video {
         width: auto;
     }
@@ -3422,7 +3285,6 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
     }
 }
 
-
 #recaptcha {
     transform: scale(0.825);
     -webkit-transform: scale(0.825);
@@ -3431,7 +3293,6 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
 }
 
 @media (max-width: 991px) {
-
     header.appsLand-header.bg-video .the-video video {
         width: auto;
     }
@@ -3785,7 +3646,6 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
     }
 }
 
-
 .fa-linkedin:before {
     color: white;
 }
@@ -3798,12 +3658,15 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
     color: white;
 }
 
+.fa-envelope:before {
+    color: white;
+}
+
 .apps-footer .footer-bottom p {
     color: white;
 }
 
 /* portfolio project section: description / results / technology */
-
 .portfolio-section-title {
     font-weight: bold;
 }
@@ -3813,7 +3676,6 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
 }
 
 /*main logo styling*/
-
 #logo-main {
     max-width: 65%;
     margin-bottom: 10px;
@@ -3834,3 +3696,4 @@ header.appsLand-header.custom-shape-1 .app-overlay:after {
 .black-text {
     color: black;
 }
+

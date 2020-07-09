@@ -1,5 +1,6 @@
 "use strict";
 
+
 $(function () {
     var contactForm = $("#contact_form"),
         response = {},
