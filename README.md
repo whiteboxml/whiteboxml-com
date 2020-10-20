@@ -32,6 +32,9 @@ in a static website thanks to [django-distill](https://github.com/meeb/django-di
 
 5. Generate the static version of the website:
 
+    * `python manage.py collectstatic`
     * `python manage.py distill-local [optional /path/to/export/directory]` 
     
-6. Setup your server (Nginx or other).
+6. Upload the static folder to your server.
+
+7. Setup your proxy (Nginx or other) to serve these files.
